@@ -7,14 +7,14 @@ Design Information
 
 Command line:   map -a ECP5UM5G -p LFE5UM5G-85F -t CABGA381 -s 8 -oc Commercial
      dft_impl1.ngd -o dft_impl1_map.ncd -pr dft_impl1.prf -mp dft_impl1.mrp -lpf
-     C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/dft_impl1_synplify.lpf
-     -lpf C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.lpf -gui -msgset
-     C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml 
+     C:/Users/mohammad/Documents/FPGA/Oscill/impl1/dft_impl1_synplify.lpf -lpf
+     C:/Users/mohammad/Documents/FPGA/Oscill/dft.lpf -gui -msgset
+     C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LFE5UM5G-85FCABGA381
 Target Performance:   8
 Mapper:  sa5p00g,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  09/04/20  14:26:46
+Mapped on:  09/04/20  14:44:11
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  top                                           Date:  09/04/20  14:26:46
+Design:  top                                           Date:  09/04/20  14:44:11
 
 Design Summary (cont)
 ---------------------
@@ -119,7 +119,7 @@ Design Summary (cont)
 Design Errors/Warnings
 ----------------------
 
-WARNING - map: C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.lpf(14): Semantic
+WARNING - map: C:/Users/mohammad/Documents/FPGA/Oscill/dft.lpf(14): Semantic
      error in "IOBUF PORT "rstn" IO_TYPE=LVCMOS33 ;": Port "rstn" does not exist
      in the design. This preference has been disabled.
 WARNING - map: IO buffer missing for top level port rstn...logic will be
@@ -132,7 +132,7 @@ WARNING - map: IO buffer missing for top level port rxd...logic will be
 
 
 
-Design:  top                                           Date:  09/04/20  14:26:46
+Design:  top                                           Date:  09/04/20  14:44:11
 
 
 IO (PIO) Attributes
@@ -198,7 +198,7 @@ Signal II_2/output_byte_1_cry_0_0_S0 undriven or does not drive anything -
 
 
 
-Design:  top                                           Date:  09/04/20  14:26:46
+Design:  top                                           Date:  09/04/20  14:44:11
 
 Removed logic (cont)
 --------------------
@@ -242,7 +242,7 @@ Run Time and Memory Usage
 -------------------------
 
    Total CPU Time: 1 secs  
-   Total REAL Time: 2 secs  
+   Total REAL Time: 3 secs  
    Peak Memory Usage: 244 MB
         
 

@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
-Fri Sep 04 14:27:22 2020
+Fri Sep 04 14:44:47 2020
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -23,7 +23,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o dft_impl1.twr -gui -msgset C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml dft_impl1.ncd dft_impl1.prf 
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o dft_impl1.twr -gui -msgset C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml dft_impl1.ncd dft_impl1.prf 
 Design file:     dft_impl1.ncd
 Preference file: dft_impl1.prf
 Device,speed:    LFE5UM5G-85F,8
@@ -48,26 +48,27 @@ Passed: The following path meets requirements by 412.731ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              II_2/uart_enable  (from baud_clk +)
-   Destination:    FF         Data in        UART_TX_Inst/r_TX_Data[6]  (to clk +)
+   Destination:    FF         Data in        UART_TX_Inst/r_TX_Data[3]  (to clk +)
+                   FF                        UART_TX_Inst/r_TX_Data[2]
 
    Delay:               1.714ns  (26.3% logic, 73.7% route), 2 logic levels.
 
  Constraint Details:
 
-      1.714ns physical path delay II_2/SLICE_61 to UART_TX_Inst/SLICE_44 meets
+      1.714ns physical path delay II_2/SLICE_61 to UART_TX_Inst/SLICE_42 meets
     416.667ns delay constraint less
       2.307ns skew and
      -0.085ns CE_SET requirement (totaling 414.445ns) by 412.731ns
 
  Physical Path Details:
 
-      Data path II_2/SLICE_61 to UART_TX_Inst/SLICE_44:
+      Data path II_2/SLICE_61 to UART_TX_Inst/SLICE_42:
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.309    R52C62B.CLK to     R52C62B.Q0 II_2/SLICE_61 (from baud_clk)
 ROUTE         2     0.665     R52C62B.Q0 to     R54C65C.C1 enable
 CTOF_DEL    ---     0.141     R54C65C.C1 to     R54C65C.F1 UART_TX_Inst/SLICE_32
-ROUTE         5     0.599     R54C65C.F1 to     R55C64C.CE UART_TX_Inst/r_TX_Data_0_sqmuxa (to clk)
+ROUTE         5     0.599     R54C65C.F1 to     R55C64A.CE UART_TX_Inst/r_TX_Data_0_sqmuxa (to clk)
                   --------
                     1.714   (26.3% logic, 73.7% route), 2 logic levels.
 
@@ -85,13 +86,13 @@ ROUTE        40     1.998     R59C67A.Q0 to    R52C62B.CLK baud_clk
                   --------
                     7.798   (17.0% logic, 83.0% route), 3 logic levels.
 
-      Destination Clock Path selectClock to UART_TX_Inst/SLICE_44:
+      Destination Clock Path selectClock to UART_TX_Inst/SLICE_42:
 
    Name    Fanout   Delay (ns)          Site               Resource
 PADI_DEL    ---     0.876        R17.PAD to      R17.PADDI selectClock
 ROUTE         1     2.476      R17.PADDI to     R59C68A.B0 selectClock_c
 CTOF_DEL    ---     0.141     R59C68A.B0 to     R59C68A.F0 SLICE_151
-ROUTE        22     1.998     R59C68A.F0 to    R55C64C.CLK clk
+ROUTE        22     1.998     R59C68A.F0 to    R55C64A.CLK clk
                   --------
                     5.491   (18.5% logic, 81.5% route), 2 logic levels.
 
@@ -155,27 +156,26 @@ Passed: The following path meets requirements by 412.731ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              II_2/uart_enable  (from baud_clk +)
-   Destination:    FF         Data in        UART_TX_Inst/r_TX_Data[3]  (to clk +)
-                   FF                        UART_TX_Inst/r_TX_Data[2]
+   Destination:    FF         Data in        UART_TX_Inst/r_TX_Data[6]  (to clk +)
 
    Delay:               1.714ns  (26.3% logic, 73.7% route), 2 logic levels.
 
  Constraint Details:
 
-      1.714ns physical path delay II_2/SLICE_61 to UART_TX_Inst/SLICE_42 meets
+      1.714ns physical path delay II_2/SLICE_61 to UART_TX_Inst/SLICE_44 meets
     416.667ns delay constraint less
       2.307ns skew and
      -0.085ns CE_SET requirement (totaling 414.445ns) by 412.731ns
 
  Physical Path Details:
 
-      Data path II_2/SLICE_61 to UART_TX_Inst/SLICE_42:
+      Data path II_2/SLICE_61 to UART_TX_Inst/SLICE_44:
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.309    R52C62B.CLK to     R52C62B.Q0 II_2/SLICE_61 (from baud_clk)
 ROUTE         2     0.665     R52C62B.Q0 to     R54C65C.C1 enable
 CTOF_DEL    ---     0.141     R54C65C.C1 to     R54C65C.F1 UART_TX_Inst/SLICE_32
-ROUTE         5     0.599     R54C65C.F1 to     R55C64A.CE UART_TX_Inst/r_TX_Data_0_sqmuxa (to clk)
+ROUTE         5     0.599     R54C65C.F1 to     R55C64C.CE UART_TX_Inst/r_TX_Data_0_sqmuxa (to clk)
                   --------
                     1.714   (26.3% logic, 73.7% route), 2 logic levels.
 
@@ -193,13 +193,13 @@ ROUTE        40     1.998     R59C67A.Q0 to    R52C62B.CLK baud_clk
                   --------
                     7.798   (17.0% logic, 83.0% route), 3 logic levels.
 
-      Destination Clock Path selectClock to UART_TX_Inst/SLICE_42:
+      Destination Clock Path selectClock to UART_TX_Inst/SLICE_44:
 
    Name    Fanout   Delay (ns)          Site               Resource
 PADI_DEL    ---     0.876        R17.PAD to      R17.PADDI selectClock
 ROUTE         1     2.476      R17.PADDI to     R59C68A.B0 selectClock_c
 CTOF_DEL    ---     0.141     R59C68A.B0 to     R59C68A.F0 SLICE_151
-ROUTE        22     1.998     R59C68A.F0 to    R55C64A.CLK clk
+ROUTE        22     1.998     R59C68A.F0 to    R55C64C.CLK clk
                   --------
                     5.491   (18.5% logic, 81.5% route), 2 logic levels.
 
@@ -619,7 +619,7 @@ Constraints cover 396 paths, 2 nets, and 270 connections (26.65% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
-Fri Sep 04 14:27:22 2020
+Fri Sep 04 14:44:47 2020
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -629,7 +629,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o dft_impl1.twr -gui -msgset C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml dft_impl1.ncd dft_impl1.prf 
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o dft_impl1.twr -gui -msgset C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml dft_impl1.ncd dft_impl1.prf 
 Design file:     dft_impl1.ncd
 Preference file: dft_impl1.prf
 Device,speed:    LFE5UM5G-85F,m

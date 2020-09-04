@@ -10,7 +10,7 @@ Lattice Diamond Version 3.11.0.396.4
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-93B4SA6
 
-# Fri Sep  4 14:26:37 2020
+# Fri Sep  4 14:44:02 2020
 
 #Implementation: impl1
 
@@ -54,18 +54,17 @@ Synopsys Verilog Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 0
 @I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\BaudClockGenerator.v" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_rx.v" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\PDE.sv" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\uart_rx.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\PDE.sv" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\cmd.v" (library work)
 Verilog syntax check successful!
-File C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv changed - recompiling
+Options changed - recompiling
 Selecting top level module top
 @N: CG364 :"C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\ecp5um5g.v":1746:7:1746:10|Synthesizing module OSCG in library work.
 Running optimization stage 1 on OSCG .......
-@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":14:7:14:13|Synthesizing module UART_TX in library work.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":14:7:14:13|Synthesizing module UART_TX in library work.
 
 	CLKS_PER_BIT=32'b00000000000000000000000001101000
 	IDLE=3'b000
@@ -75,211 +74,211 @@ Running optimization stage 1 on OSCG .......
 	CLEANUP=3'b100
    Generated name = UART_TX_104s_0_1_2_3_4
 Running optimization stage 1 on UART_TX_104s_0_1_2_3_4 .......
-@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v":4:7:4:14|Synthesizing module cmd_send in library work.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Oscill\cmd.v":4:7:4:14|Synthesizing module cmd_send in library work.
 Running optimization stage 1 on cmd_send .......
-@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Synthesizing module top in library work.
-@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":41:11:41:16|Removing wire rxdata, as there is no assignment to it.
-@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":44:5:44:7|Removing wire rdy, as there is no assignment to it.
-@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":51:5:51:15|Removing wire w_TX_Serial, as there is no assignment to it.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Synthesizing module top in library work.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":41:11:41:16|Removing wire rxdata, as there is no assignment to it.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":44:5:44:7|Removing wire rdy, as there is no assignment to it.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":51:5:51:15|Removing wire w_TX_Serial, as there is no assignment to it.
 Running optimization stage 1 on top .......
 Running optimization stage 2 on top .......
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[0]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[1]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[2]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[3]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[4]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[5]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[6]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[7]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[8]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[9]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[10]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[11]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[12]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[13]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[14]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[15]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[16]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[17]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[18]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[19]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[20]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[21]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[22]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[23]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[24]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[25]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[26]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[27]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[28]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[29]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[30]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[31]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[32]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[33]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[34]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[35]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[36]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[37]' because it is only assigned 0 or its original value.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][0] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][2] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][3] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][5] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][0] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][1] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][2] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][3] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][5] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][2] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[43][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[43][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[44][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[44][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[45][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[45][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[46][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[46][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[47][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[48][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[48][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[49][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[49][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[50][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[50][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[51][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[52][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[52][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[53][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[53][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[54][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[55][2] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[55][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[56][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[56][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[57][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][0] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[59][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[60][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[60][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[61][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[61][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit n_command[5] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][0] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][5] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][2] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][7] is always 0.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[39][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 4 to 1 of command[39][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[38][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 5 to 3 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of n_command[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[61][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[60][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[59][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[58][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[58][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[57][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 2 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[54][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[51][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[47][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[42][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 2 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[44][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[60][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[61][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[45][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[54][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[57][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[57][6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[59][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[43][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[46][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[39][6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[40][6:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[47][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[53][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[58][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[42][1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[48][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL177 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Sharing sequential element command[51]. Add a syn_preserve attribute to the element to prevent sharing.
-@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":6:28:6:31|Input rstn is unused.
-@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":8:16:8:18|Input rxd is unused.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[0]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[1]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[2]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[3]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[4]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[5]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[6]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[7]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[8]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[9]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[10]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[11]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[12]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[13]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[14]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[15]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[16]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[17]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[18]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[19]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[20]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[21]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[22]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[23]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[24]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[25]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[26]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[27]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[28]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[29]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[30]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[31]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[32]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[33]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[34]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[35]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[36]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[37]' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][0] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][2] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][3] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][1] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][3] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[40][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[40][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[40][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[41][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[41][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[41][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[42][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[42][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[42][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[42][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[43][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[43][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[44][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[44][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[45][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[45][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[46][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[46][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[47][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[48][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[48][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[49][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[49][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[50][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[50][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[51][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[52][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[52][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[53][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[53][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[54][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[55][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[55][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[56][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[56][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[57][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[58][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[58][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[58][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[59][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[60][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[60][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[61][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[61][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit n_command[5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][7] is always 0.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[39][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 4 to 1 of command[39][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[38][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 5 to 3 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of n_command[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[61][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[60][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[59][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[58][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[58][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[57][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 2 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[54][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[51][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[47][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[42][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 2 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[44][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of command[60][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[61][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 6 of command[45][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of command[54][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 6 of command[57][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[57][6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[59][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[43][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[46][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 6 of command[39][6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of command[40][6:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[47][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 6 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[53][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[58][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[42][1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[48][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Sharing sequential element command[51]. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":6:28:6:31|Input rstn is unused.
+@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":8:16:8:18|Input rxd is unused.
 Running optimization stage 2 on cmd_send .......
 Running optimization stage 2 on UART_TX_104s_0_1_2_3_4 .......
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[8] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[9] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[10] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[11] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[12] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[13] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[14] is always 0.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Pruning register bits 14 to 7 of r_Clock_Count[14:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL201 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Trying to extract state machine for register r_SM_Main.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[8] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[9] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[10] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[11] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[12] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[13] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[14] is always 0.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Pruning register bits 14 to 7 of r_Clock_Count[14:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Trying to extract state machine for register r_SM_Main.
 Running optimization stage 2 on OSCG .......
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\layer0.rt.csv
+@L: C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\layer0.rt.csv
 
 
 At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 102MB)
@@ -287,7 +286,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Sep  4 14:26:39 2020
+# Fri Sep  4 14:44:04 2020
 
 ###########################################################]
 
@@ -308,21 +307,21 @@ Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1
 
 @N|Running in 64-bit mode
 File C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\layer0.srs changed - recompiling
-@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Sep  4 14:26:39 2020
+# Fri Sep  4 14:44:04 2020
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_comp.rt.csv
+@L: C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\dft_impl1_comp.rt.csv
 
 @END
 
@@ -331,7 +330,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Sep  4 14:26:39 2020
+# Fri Sep  4 14:44:04 2020
 
 ###########################################################]
 
@@ -347,23 +346,23 @@ OS: Windows 6.2
 
 Hostname: DESKTOP-93B4SA6
 
-Database state : C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\|impl1
+Database state : C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\|impl1
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
 File C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_comp.srs changed - recompiling
-@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Sep  4 14:26:40 2020
+# Fri Sep  4 14:44:05 2020
 
 ###########################################################]
-# Fri Sep  4 14:26:40 2020
+# Fri Sep  4 14:44:06 2020
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -386,8 +385,8 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 
 @A: MF827 |No constraint file specified.
 @N: MF284 |Setting synthesis effort to medium for the design
-@L: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\dft_impl1_scck.rpt 
-Printing clock  summary report in "C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\dft_impl1_scck.rpt" file 
+@L: C:\Users\mohammad\Documents\FPGA\Oscill\impl1\dft_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\mohammad\Documents\FPGA\Oscill\impl1\dft_impl1_scck.rpt" file 
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
@@ -405,24 +404,24 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 @N: MF284 |Setting synthesis effort to medium for the design
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[59][6:4] because it is equivalent to instance command[53][6:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[53][2] because it is equivalent to instance command[42][3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[42][3] because it is equivalent to instance command[41][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[42][0] because it is equivalent to instance command[41][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[41][2] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[58][2] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[39][5] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[40][4] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[40][2] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[38][6] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[41][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[39][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[42][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[52][2] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[45][0] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[59][6:4] because it is equivalent to instance command[53][6:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[53][2] because it is equivalent to instance command[42][3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[42][3] because it is equivalent to instance command[41][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[42][0] because it is equivalent to instance command[41][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[41][2] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[58][2] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[39][5] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[40][4] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[40][2] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[38][6] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[41][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[39][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[42][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[52][2] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing sequential instance command[45][0] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: MH105 |UMR3 is only supported for HAPS-80.
 @N: MH105 |UMR3 is only supported for HAPS-80.
-@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\uart_tx.v":38:2:38:7|Removing sequential instance r_TX_Done (in view: work.UART_TX_104s_0_1_2_3_4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\mohammad\documents\fpga\oscill\uart_tx.v":38:2:38:7|Removing sequential instance r_TX_Done (in view: work.UART_TX_104s_0_1_2_3_4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 syn_allowed_resources : blockrams=208  set on top level netlist top
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
@@ -451,7 +450,7 @@ top|clk_inferred_clock         34        clk.OUT[0](mux)         baud_cnt[9:0].C
 top|baud_clk_derived_clock     147       baud_clk.Q[0](dffr)     command\[40\][0].C     -                 -            
 =======================================================================================================================
 
-@W: MT529 :"c:\users\mohammad\documents\fpga\bluetooth\uart_tx.v":38:2:38:7|Found inferred clock top|clk_inferred_clock which controls 34 sequential elements including UART_TX_Inst.r_SM_Main[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\mohammad\documents\fpga\oscill\uart_tx.v":38:2:38:7|Found inferred clock top|clk_inferred_clock which controls 34 sequential elements including UART_TX_Inst.r_SM_Main[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -496,10 +495,10 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Sep  4 14:26:41 2020
+# Fri Sep  4 14:44:06 2020
 
 ###########################################################]
-# Fri Sep  4 14:26:41 2020
+# Fri Sep  4 14:44:07 2020
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -531,10 +530,10 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
 
 @N: MF284 |Setting synthesis effort to medium for the design
 
@@ -548,108 +547,108 @@ Available hyper_sources - for debug and ip models
 @N: FX493 |Applying initial value "000" on instance UART_TX_Inst.r_SM_Main[2:0].
 @N: FX493 |Applying initial value "00000000" on instance UART_TX_Inst.r_TX_Data[7:0].
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
 
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][2] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][3] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][0] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][0] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][5] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][6] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][0] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][4] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][5] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][6] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][0] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][0] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][1] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][5] because it is equivalent to instance command[54][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][3] because it is equivalent to instance command[54][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][1] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][3] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][4] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][2] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][3] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][4] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[0] because it is equivalent to instance command[60][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][4] because it is equivalent to instance command[55][3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[53][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][4] because it is equivalent to instance command[46][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][2] because it is equivalent to instance command[46][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][1] because it is equivalent to instance command[45][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[2] because it is equivalent to instance command[45][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][1] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[53][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][2] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[4] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][4] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][0] because it is equivalent to instance command[55][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][5] because it is equivalent to instance command[55][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][0] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][1] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][2] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[3] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][6] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][0] because it is equivalent to instance command[51][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][2] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][6] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][4] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: MO231 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Found counter in view:work.top(verilog) instance command_index[4:0] 
-@N: MF179 :"c:\users\mohammad\documents\fpga\bluetooth\cmd.v":21:7:21:21|Found 6 by 6 bit equality operator ('==') i9 (in view: work.cmd_send(verilog))
-@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\cmd.v":10:0:10:5|Removing sequential instance output_byte[7] (in view: work.cmd_send(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[43][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[46][2] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[50][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[61][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[54][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[60][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[45][3] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[41][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[43][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[46][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[47][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[49][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[50][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[56][0] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[55][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[48][0] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[57][5] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[48][6] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[54][0] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[49][4] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[56][5] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[58][6] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[60][0] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[55][0] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[57][1] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[61][5] because it is equivalent to instance command[54][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[60][3] because it is equivalent to instance command[54][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[48][1] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[49][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[47][3] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[58][4] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[43][2] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[50][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[61][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[54][3] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[41][4] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance n_command[0] because it is equivalent to instance command[60][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[60][4] because it is equivalent to instance command[55][3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[52][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[57][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[53][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[51][4] because it is equivalent to instance command[46][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[50][2] because it is equivalent to instance command[46][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[46][1] because it is equivalent to instance command[45][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance n_command[2] because it is equivalent to instance command[45][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[49][1] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[51][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[47][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[52][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[44][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[53][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[58][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[46][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[45][2] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[49][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[50][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance n_command[4] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[55][4] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[59][0] because it is equivalent to instance command[55][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[55][5] because it is equivalent to instance command[55][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[57][0] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[56][1] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[59][2] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance n_command[3] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[56][6] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[52][0] because it is equivalent to instance command[51][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[51][2] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[47][6] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[50][4] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[61][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[54][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[56][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[44][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[49][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[51][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[47][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[44][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[48][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[43][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[61][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[45][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[41][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[43][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[56][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Removing instance command[59][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\mohammad\documents\fpga\oscill\top.sv":100:0:100:5|Found counter in view:work.top(verilog) instance command_index[4:0] 
+@N: MF179 :"c:\users\mohammad\documents\fpga\oscill\cmd.v":21:7:21:21|Found 6 by 6 bit equality operator ('==') i9 (in view: work.cmd_send(verilog))
+@N: BN362 :"c:\users\mohammad\documents\fpga\oscill\cmd.v":10:0:10:5|Removing sequential instance output_byte[7] (in view: work.cmd_send(verilog)) because it does not drive other instances.
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
-@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\uart_tx.v":38:2:38:7|Removing sequential instance UART_TX_Inst.r_TX_Data[7] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\mohammad\documents\fpga\oscill\uart_tx.v":38:2:38:7|Removing sequential instance UART_TX_Inst.r_TX_Data[7] (in view: work.top(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
-
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 147MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
@@ -658,7 +657,7 @@ Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elaps
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 147MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
 
 
 Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
@@ -667,21 +666,21 @@ Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
    1		0h:00m:01s		     1.92ns		 205 /        94
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
 
 
 Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 125MB peak: 162MB)
 
-Writing Analyst data base C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_m.srm
+Writing Analyst data base C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\dft_impl1_m.srm
 
 Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 159MB peak: 162MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\dft_impl1.edi
+@N: FX1056 |Writing EDF file: C:\Users\mohammad\Documents\FPGA\Oscill\impl1\dft_impl1.edi
 N-2018.03L-SP1-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
@@ -695,7 +694,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Fri Sep  4 14:26:44 2020
+# Timing Report written on Fri Sep  4 14:44:10 2020
 #
 
 
@@ -1103,17 +1102,17 @@ VLO:            1
 false:          2
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 165MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 165MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Fri Sep  4 14:26:44 2020
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Sep  4 14:44:10 2020
 
 ###########################################################]
 
 
 Synthesis exit by 0.
 
-edif2ngd  -l "ECP5UM5G" -d LFE5UM5G-85F -path "C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1" -path "C:/Users/mohammad/Documents/FPGA/Bluetooth"   "C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/dft_impl1.edi" "dft_impl1.ngo"   
+edif2ngd  -l "ECP5UM5G" -d LFE5UM5G-85F -path "C:/Users/mohammad/Documents/FPGA/Oscill/impl1" -path "C:/Users/mohammad/Documents/FPGA/Oscill"   "C:/Users/mohammad/Documents/FPGA/Oscill/impl1/dft_impl1.edi" "dft_impl1.ngo"   
 edif2ngd:  version Diamond (64-bit) 3.11.0.396.4
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
@@ -1135,7 +1134,7 @@ Total REAL Time: 0 secs
 Peak Memory Usage: 11 MB
 
 
-ngdbuild  -a "ECP5UM5G" -d LFE5UM5G-85F  -p "C:/lscc/diamond/3.11_x64/ispfpga/sa5p00g/data"  -p "C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1" -p "C:/Users/mohammad/Documents/FPGA/Bluetooth"  "dft_impl1.ngo" "dft_impl1.ngd"  	
+ngdbuild  -a "ECP5UM5G" -d LFE5UM5G-85F  -p "C:/lscc/diamond/3.11_x64/ispfpga/sa5p00g/data"  -p "C:/Users/mohammad/Documents/FPGA/Oscill/impl1" -p "C:/Users/mohammad/Documents/FPGA/Oscill"  "dft_impl1.ngo" "dft_impl1.ngd"  	
 ngdbuild:  version Diamond (64-bit) 3.11.0.396.4
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
@@ -1166,7 +1165,7 @@ Total REAL Time: 0 secs
 Peak Memory Usage: 20 MB
 
 
-map -a "ECP5UM5G" -p LFE5UM5G-85F -t CABGA381 -s 8 -oc Commercial   "dft_impl1.ngd" -o "dft_impl1_map.ncd" -pr "dft_impl1.prf" -mp "dft_impl1.mrp" -lpf "C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/dft_impl1_synplify.lpf" -lpf "C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.lpf"            
+map -a "ECP5UM5G" -p LFE5UM5G-85F -t CABGA381 -s 8 -oc Commercial   "dft_impl1.ngd" -o "dft_impl1_map.ncd" -pr "dft_impl1.prf" -mp "dft_impl1.mrp" -lpf "C:/Users/mohammad/Documents/FPGA/Oscill/impl1/dft_impl1_synplify.lpf" -lpf "C:/Users/mohammad/Documents/FPGA/Oscill/dft.lpf"            
 map:  version Diamond (64-bit) 3.11.0.396.4
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
@@ -1187,7 +1186,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 Part used: LFE5UM5G-85FCABGA381, Performance used: 8.
 
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.lpf(14): Semantic error in &quot;IOBUF PORT &quot;rstn&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="rstn" arg2="C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.lpf" arg3="14"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/mohammad/Documents/FPGA/Oscill/dft.lpf(14): Semantic error in &quot;IOBUF PORT &quot;rstn&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="rstn" arg2="C:/Users/mohammad/Documents/FPGA/Oscill/dft.lpf" arg3="14"  />
 Loading device for application map from file 'sa5p85m.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
 Package Status:                     Final          Version 1.43.
 
@@ -1288,7 +1287,7 @@ Design Summary:
 
 
 Total CPU Time: 1 secs  
-Total REAL Time: 2 secs  
+Total REAL Time: 3 secs  
 Peak Memory Usage: 244 MB
 
 Dumping design to file dft_impl1_map.ncd.
@@ -1316,7 +1315,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
-Fri Sep 04 14:26:51 2020
+Fri Sep 04 14:44:17 2020
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1326,7 +1325,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o dft_impl1.tw1 -gui -msgset C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml dft_impl1_map.ncd dft_impl1.prf 
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o dft_impl1.tw1 -gui -msgset C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml dft_impl1_map.ncd dft_impl1.prf 
 Design file:     dft_impl1_map.ncd
 Preference file: dft_impl1.prf
 Device,speed:    LFE5UM5G-85F,8
@@ -1350,7 +1349,7 @@ Constraints cover 396 paths, 2 nets, and 235 connections (23.20% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
-Fri Sep 04 14:26:51 2020
+Fri Sep 04 14:44:18 2020
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1360,7 +1359,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o dft_impl1.tw1 -gui -msgset C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml dft_impl1_map.ncd dft_impl1.prf 
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o dft_impl1.tw1 -gui -msgset C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml dft_impl1_map.ncd dft_impl1.prf 
 Design file:     dft_impl1_map.ncd
 Preference file: dft_impl1.prf
 Device,speed:    LFE5UM5G-85F,M
@@ -1406,10 +1405,10 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "dft_impl1_map.ncd"
-Fri Sep 04 14:26:52 2020
+Fri Sep 04 14:44:18 2020
 
 PAR: Place And Route Diamond (64-bit) 3.11.0.396.4.
-Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF dft_impl1_map.ncd dft_impl1.dir/5_1.ncd dft_impl1.prf
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF dft_impl1_map.ncd dft_impl1.dir/5_1.ncd dft_impl1.prf
 Preference file: dft_impl1.prf.
 Placement level-cost: 5-1.
 Routing Iterations: 6
@@ -1453,12 +1452,12 @@ No signal is selected as Global Set/Reset.
 .
 Starting Placer Phase 0.
 ...............
-Finished Placer Phase 0.  REAL time: 5 secs 
+Finished Placer Phase 0.  REAL time: 6 secs 
 
 Starting Placer Phase 1.
 ...................
 Placer score = 58560.
-Finished Placer Phase 1.  REAL time: 11 secs 
+Finished Placer Phase 1.  REAL time: 12 secs 
 
 Starting Placer Phase 2.
 .
@@ -1524,7 +1523,7 @@ I/O Bank Usage Summary:
 | 8        | 0 / 13 (  0%) | -          | -          | -          |
 +----------+---------------+------------+------------+------------+
 
-Total placer CPU time: 12 secs 
+Total placer CPU time: 10 secs 
 
 Dumping design to file dft_impl1.dir/5_1.ncd.
 
@@ -1533,7 +1532,7 @@ Starting router resource preassignment
 
 Completed router resource preassignment. Real time: 23 secs 
 
-Start NBR router at 14:27:15 09/04/20
+Start NBR router at 14:44:41 09/04/20
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -1548,9 +1547,9 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 14:27:15 09/04/20
+Start NBR special constraint process at 14:44:41 09/04/20
 
-Start NBR section for initial routing at 14:27:15 09/04/20
+Start NBR section for initial routing at 14:44:41 09/04/20
 Level 4, iteration 1
 59(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 412.731ns/0.000ns; real time: 24 secs 
@@ -1558,7 +1557,7 @@ Estimated worst slack/total negative slack<setup>: 412.731ns/0.000ns; real time:
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 14:27:16 09/04/20
+Start NBR section for normal routing at 14:44:42 09/04/20
 Level 4, iteration 1
 39(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 412.731ns/0.000ns; real time: 24 secs 
@@ -1590,14 +1589,14 @@ Level 4, iteration 10
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 412.731ns/0.000ns; real time: 24 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 14:27:16 09/04/20
+Start NBR section for setup/hold timing optimization with effort level 3 at 14:44:42 09/04/20
 
-Start NBR section for re-routing at 14:27:17 09/04/20
+Start NBR section for re-routing at 14:44:43 09/04/20
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 412.731ns/0.000ns; real time: 25 secs 
 
-Start NBR section for post-routing at 14:27:17 09/04/20
+Start NBR section for post-routing at 14:44:43 09/04/20
 
 End NBR router with 0 unrouted connection
 
@@ -1612,8 +1611,8 @@ Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored
 
 
 
-Total CPU time 26 secs 
-Total REAL time: 26 secs 
+Total CPU time 24 secs 
+Total REAL time: 25 secs 
 Completely routed.
 End of route.  1013 routed (100.00%); 0 unrouted.
 
@@ -1632,8 +1631,8 @@ PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.159
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 27 secs 
-Total REAL time to completion: 27 secs 
+Total CPU  time to completion: 24 secs 
+Total REAL time to completion: 26 secs 
 
 par done!
 
@@ -1670,7 +1669,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
-Fri Sep 04 14:27:22 2020
+Fri Sep 04 14:44:47 2020
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1680,7 +1679,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o dft_impl1.twr -gui -msgset C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml dft_impl1.ncd dft_impl1.prf 
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o dft_impl1.twr -gui -msgset C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml dft_impl1.ncd dft_impl1.prf 
 Design file:     dft_impl1.ncd
 Preference file: dft_impl1.prf
 Device,speed:    LFE5UM5G-85F,8
@@ -1704,7 +1703,7 @@ Constraints cover 396 paths, 2 nets, and 270 connections (26.65% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
-Fri Sep 04 14:27:22 2020
+Fri Sep 04 14:44:47 2020
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1714,7 +1713,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o dft_impl1.twr -gui -msgset C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml dft_impl1.ncd dft_impl1.prf 
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o dft_impl1.twr -gui -msgset C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml dft_impl1.ncd dft_impl1.prf 
 Design file:     dft_impl1.ncd
 Preference file: dft_impl1.prf
 Device,speed:    LFE5UM5G-85F,m
@@ -1812,7 +1811,7 @@ Done.
 
 tmcheck -par "dft_impl1.par" 
 
-bitgen -w "dft_impl1.ncd" -f "dft_impl1.t2b" -e -s "C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.sec" -k "C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.bek" "dft_impl1.prf"
+bitgen -w "dft_impl1.ncd" -f "dft_impl1.t2b" -e -s "C:/Users/mohammad/Documents/FPGA/Oscill/dft.sec" -k "C:/Users/mohammad/Documents/FPGA/Oscill/dft.bek" "dft_impl1.prf"
 
 
 BITGEN: Bitstream Generator Diamond (64-bit) 3.11.0.396.4
@@ -1890,7 +1889,7 @@ Bitstream Status: Final           Version 10.27.
  
 Saving bit stream in "dft_impl1.bit".
 Total CPU Time: 11 secs 
-Total REAL Time: 11 secs 
+Total REAL Time: 12 secs 
 Peak Memory Usage: 541 MB
 
 ddtcmd -dev LFE5UM5G-85F -if dft_impl1.bit -oft -int -of dft_impl1.mcs 

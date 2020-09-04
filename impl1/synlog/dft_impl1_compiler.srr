@@ -38,18 +38,17 @@ Synopsys Verilog Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 0
 @I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\BaudClockGenerator.v" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_rx.v" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\PDE.sv" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv" (library work)
-@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\uart_rx.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\PDE.sv" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Oscill\cmd.v" (library work)
 Verilog syntax check successful!
-File C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv changed - recompiling
+Options changed - recompiling
 Selecting top level module top
 @N: CG364 :"C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\ecp5um5g.v":1746:7:1746:10|Synthesizing module OSCG in library work.
 Running optimization stage 1 on OSCG .......
-@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":14:7:14:13|Synthesizing module UART_TX in library work.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":14:7:14:13|Synthesizing module UART_TX in library work.
 
 	CLKS_PER_BIT=32'b00000000000000000000000001101000
 	IDLE=3'b000
@@ -59,211 +58,211 @@ Running optimization stage 1 on OSCG .......
 	CLEANUP=3'b100
    Generated name = UART_TX_104s_0_1_2_3_4
 Running optimization stage 1 on UART_TX_104s_0_1_2_3_4 .......
-@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v":4:7:4:14|Synthesizing module cmd_send in library work.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Oscill\cmd.v":4:7:4:14|Synthesizing module cmd_send in library work.
 Running optimization stage 1 on cmd_send .......
-@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Synthesizing module top in library work.
-@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":41:11:41:16|Removing wire rxdata, as there is no assignment to it.
-@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":44:5:44:7|Removing wire rdy, as there is no assignment to it.
-@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":51:5:51:15|Removing wire w_TX_Serial, as there is no assignment to it.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Synthesizing module top in library work.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":41:11:41:16|Removing wire rxdata, as there is no assignment to it.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":44:5:44:7|Removing wire rdy, as there is no assignment to it.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":51:5:51:15|Removing wire w_TX_Serial, as there is no assignment to it.
 Running optimization stage 1 on top .......
 Running optimization stage 2 on top .......
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[0]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[1]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[2]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[3]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[4]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[5]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[6]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[7]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[8]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[9]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[10]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[11]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[12]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[13]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[14]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[15]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[16]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[17]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[18]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[19]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[20]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[21]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[22]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[23]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[24]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[25]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[26]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[27]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[28]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[29]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[30]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[31]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[32]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[33]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[34]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[35]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[36]' because it is only assigned 0 or its original value.
-@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[37]' because it is only assigned 0 or its original value.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][0] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][2] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][3] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][5] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][0] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][1] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][2] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][3] is always 1.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][5] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][2] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[43][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[43][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[44][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[44][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[45][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[45][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[46][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[46][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[47][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[48][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[48][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[49][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[49][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[50][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[50][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[51][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[52][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[52][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[53][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[53][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[54][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[55][2] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[55][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[56][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[56][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[57][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][0] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[59][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[60][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[60][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[61][6] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[61][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit n_command[5] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][0] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][5] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][1] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][2] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][3] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][4] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][7] is always 0.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[39][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 4 to 1 of command[39][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[38][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 5 to 3 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of n_command[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[61][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[60][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[59][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[58][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[58][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[57][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 2 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[54][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[51][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[47][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[42][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 2 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[44][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[60][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[61][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[45][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[54][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[57][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[57][6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[59][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[43][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[46][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[39][6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[40][6:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[47][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[53][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[58][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[42][1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[48][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL177 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Sharing sequential element command[51]. Add a syn_preserve attribute to the element to prevent sharing.
-@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":6:28:6:31|Input rstn is unused.
-@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":8:16:8:18|Input rxd is unused.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[0]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[1]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[2]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[3]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[4]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[5]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[6]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[7]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[8]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[9]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[10]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[11]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[12]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[13]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[14]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[15]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[16]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[17]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[18]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[19]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[20]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[21]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[22]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[23]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[24]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[25]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[26]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[27]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[28]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[29]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[30]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[31]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[32]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[33]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[34]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[35]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[36]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Removing register 'command[37]' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][0] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][2] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][3] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[62][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][1] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][3] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[63][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[40][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[40][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[40][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[41][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[41][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[41][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[42][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[42][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[42][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[42][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[43][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[43][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[44][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[44][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[45][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[45][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[46][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[46][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[47][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[48][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[48][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[49][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[49][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[50][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[50][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[51][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[52][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[52][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[53][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[53][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[54][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[55][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[55][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[56][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[56][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[57][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[58][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[58][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[58][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[59][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[60][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[60][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[61][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[61][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit n_command[5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[38][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Register bit command[39][7] is always 0.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[39][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 4 to 1 of command[39][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[38][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 5 to 3 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of n_command[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[61][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[60][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[59][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[58][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[58][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[57][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 2 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[54][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[51][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[47][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[42][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 2 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 7 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[44][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of command[60][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[61][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 6 of command[45][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of command[54][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 6 of command[57][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[57][6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[59][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[43][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[46][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 6 of command[39][6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of command[40][6:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 4 of command[47][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 5 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 6 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[53][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 3 of command[58][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bit 1 of command[42][1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[48][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":100:0:100:5|Sharing sequential element command[51]. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":6:28:6:31|Input rstn is unused.
+@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":8:16:8:18|Input rxd is unused.
 Running optimization stage 2 on cmd_send .......
 Running optimization stage 2 on UART_TX_104s_0_1_2_3_4 .......
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[7] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[8] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[9] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[10] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[11] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[12] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[13] is always 0.
-@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[14] is always 0.
-@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Pruning register bits 14 to 7 of r_Clock_Count[14:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL201 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Trying to extract state machine for register r_SM_Main.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[8] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[9] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[10] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[11] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[12] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[13] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[14] is always 0.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Pruning register bits 14 to 7 of r_Clock_Count[14:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v":38:2:38:7|Trying to extract state machine for register r_SM_Main.
 Running optimization stage 2 on OSCG .......
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\layer0.rt.csv
+@L: C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\layer0.rt.csv
 
 
 At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 102MB)
@@ -271,7 +270,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Sep  4 14:26:39 2020
+# Fri Sep  4 14:44:04 2020
 
 ###########################################################]
 
@@ -292,21 +291,21 @@ Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1
 
 @N|Running in 64-bit mode
 File C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\layer0.srs changed - recompiling
-@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Sep  4 14:26:39 2020
+# Fri Sep  4 14:44:04 2020
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_comp.rt.csv
+@L: C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\dft_impl1_comp.rt.csv
 
 @END
 
@@ -315,6 +314,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Sep  4 14:26:39 2020
+# Fri Sep  4 14:44:04 2020
 
 ###########################################################]

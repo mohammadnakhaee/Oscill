@@ -4,11 +4,11 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Sep 04 14:26:52 2020
+Fri Sep 04 14:44:18 2020
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f dft_impl1.p2t
 dft_impl1_map.ncd dft_impl1.dir dft_impl1.prf -gui -msgset
-C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml
+C:/Users/mohammad/Documents/FPGA/Oscill/promote.xml
 
 
 Preference file: dft_impl1.prf.
@@ -16,11 +16,11 @@ Preference file: dft_impl1.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            412.731      0            0.159        0            27           Completed
+5_1   *      0            412.731      0            0.159        0            26           Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 27 secs 
+Total (real) run time for 1-seed: 26 secs 
 
 par done!
 

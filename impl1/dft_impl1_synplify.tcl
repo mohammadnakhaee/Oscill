@@ -44,17 +44,16 @@ set_option -resolve_multiple_driver 0
 
 
 #-- add_file options
-set_option -include_path {C:/Users/mohammad/Documents/FPGA/Bluetooth}
-add_file -verilog {C:/Users/mohammad/Documents/FPGA/Bluetooth/BaudClockGenerator.v}
-add_file -verilog {C:/Users/mohammad/Documents/FPGA/Bluetooth/uart_rx.v}
-add_file -verilog {C:/Users/mohammad/Documents/FPGA/Bluetooth/uart_tx.v}
-add_file -verilog {C:/Users/mohammad/Documents/FPGA/Bluetooth/PDE.sv}
-add_file -verilog {C:/Users/mohammad/Documents/FPGA/Bluetooth/top.sv}
-add_file -verilog {C:/Users/mohammad/Documents/FPGA/Bluetooth/cmd.v}
+set_option -include_path {C:/Users/mohammad/Documents/FPGA/Oscill}
+add_file -verilog {C:/Users/mohammad/Documents/FPGA/Oscill/uart_rx.v}
+add_file -verilog {C:/Users/mohammad/Documents/FPGA/Oscill/uart_tx.v}
+add_file -verilog {C:/Users/mohammad/Documents/FPGA/Oscill/PDE.sv}
+add_file -verilog {C:/Users/mohammad/Documents/FPGA/Oscill/top.sv}
+add_file -verilog {C:/Users/mohammad/Documents/FPGA/Oscill/cmd.v}
 
 
 #-- set result format/file last
-project -result_file {C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/dft_impl1.edi}
+project -result_file {C:/Users/mohammad/Documents/FPGA/Oscill/impl1/dft_impl1.edi}
 
 #-- error message log file
 project -log_file {dft_impl1.srf}

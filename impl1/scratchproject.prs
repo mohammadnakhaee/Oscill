@@ -1,19 +1,18 @@
 #--  Synopsys, Inc.
 #--  Version N-2018.03L-SP1-1
-#--  Project file C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\scratchproject.prs
+#--  Project file C:\Users\mohammad\Documents\FPGA\Oscill\impl1\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Users/mohammad/Documents/FPGA/Bluetooth/BaudClockGenerator.v"
-add_file -verilog "C:/Users/mohammad/Documents/FPGA/Bluetooth/uart_rx.v"
-add_file -verilog "C:/Users/mohammad/Documents/FPGA/Bluetooth/uart_tx.v"
-add_file -verilog -vlog_std sysv "C:/Users/mohammad/Documents/FPGA/Bluetooth/PDE.sv"
-add_file -verilog -vlog_std sysv "C:/Users/mohammad/Documents/FPGA/Bluetooth/top.sv"
-add_file -verilog "C:/Users/mohammad/Documents/FPGA/Bluetooth/cmd.v"
+add_file -verilog "C:/Users/mohammad/Documents/FPGA/Oscill/uart_rx.v"
+add_file -verilog "C:/Users/mohammad/Documents/FPGA/Oscill/uart_tx.v"
+add_file -verilog -vlog_std sysv "C:/Users/mohammad/Documents/FPGA/Oscill/PDE.sv"
+add_file -verilog -vlog_std sysv "C:/Users/mohammad/Documents/FPGA/Oscill/top.sv"
+add_file -verilog "C:/Users/mohammad/Documents/FPGA/Oscill/cmd.v"
 
 
 
 #implementation: "impl1"
-impl -add C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1 -type fpga
+impl -add C:\Users\mohammad\Documents\FPGA\Oscill\impl1 -type fpga
 
 #
 #implementation attributes
@@ -21,8 +20,8 @@ impl -add C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1 -type fpga
 set_option -vlog_std v2001
 set_option -num_critical_paths 3
 set_option -project_relative_includes 1
-set_option -include_path {C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/}
-set_option -include_path {C:/Users/mohammad/Documents/FPGA/Bluetooth}
+set_option -include_path {C:/Users/mohammad/Documents/FPGA/Oscill/impl1/}
+set_option -include_path {C:/Users/mohammad/Documents/FPGA/Oscill}
 
 #device options
 set_option -technology ECP5UM5G
@@ -74,8 +73,8 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/dft_impl1.edi"
+project -result_file "C:/Users/mohammad/Documents/FPGA/Oscill/impl1/dft_impl1.edi"
 
 #set log file 
-set_option log_file "C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/dft_impl1.srf" 
+set_option log_file "C:/Users/mohammad/Documents/FPGA/Oscill/impl1/dft_impl1.srf" 
 impl -active "impl1"

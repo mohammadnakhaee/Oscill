@@ -5,5 +5,5 @@
 @N: MF284 |Setting synthesis effort to medium for the design
 @N: MH105 |UMR3 is only supported for HAPS-80.
 @N: MH105 |UMR3 is only supported for HAPS-80.
-@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\uart_tx.v":38:2:38:7|Removing sequential instance r_TX_Done (in view: work.UART_TX_104s_0_1_2_3_4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\mohammad\documents\fpga\oscill\uart_tx.v":38:2:38:7|Removing sequential instance r_TX_Done (in view: work.UART_TX_104s_0_1_2_3_4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

@@ -3,9 +3,6 @@
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
         <Options/>
-        <Source name="BaudClockGenerator.v" type="Verilog" type_short="Verilog">
-            <Options/>
-        </Source>
         <Source name="uart_rx.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
@@ -16,6 +13,9 @@
             <Options/>
         </Source>
         <Source name="top.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="cmd.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="dft.lpf" type="Logic Preference" type_short="LPF">

@@ -11,19 +11,19 @@ OS: Windows 6.2
 
 Hostname: DESKTOP-93B4SA6
 
-Database state : C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\|impl1
+Database state : C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\|impl1
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
 File C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_comp.srs changed - recompiling
-@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Sep  4 14:26:40 2020
+# Fri Sep  4 14:44:05 2020
 
 ###########################################################]

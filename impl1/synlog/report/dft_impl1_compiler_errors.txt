@@ -1,3 +1,2 @@
-@E: CG342 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v":16:3:16:10|Expecting target variable, found send_cnt -- possible misspelling
-@E: CS187 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v":30:0:30:8|Expecting endmodule
+@E: CG389 :"C:\Users\mohammad\Documents\FPGA\Oscill\top.sv":86:0:86:7|Reference to undefined module cmd_send
 

@@ -1,7 +1,7 @@
-C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_comp.srs  -osyn  C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_mult.srs  -log  C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synlog\dft_impl1_multi_srs_gen.srr 
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\dft_impl1_comp.srs  -osyn  C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synwork\dft_impl1_mult.srs  -log  C:\Users\mohammad\Documents\FPGA\Oscill\impl1\synlog\dft_impl1_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -multisrs ..\synwork\dft_impl1_comp.srs -osyn ..\synwork\dft_impl1_mult.srs -log ..\synlog\dft_impl1_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\dft_impl1_comp.srs|io:i|time:1599222399|size:15733|exec:0|csum:1A99034B6E955C627A3C79E09DA8F259
-file:..\synwork\dft_impl1_mult.srs|io:o|time:1599222400|size:9256|exec:0|csum:
-file:..\synlog\dft_impl1_multi_srs_gen.srr|io:o|time:1599222400|size:1403|exec:0|csum:
+file:..\synwork\dft_impl1_comp.srs|io:i|time:1599223444|size:15700|exec:0|csum:38FFDBF7B9F1998ACC869E20A6DF0065
+file:..\synwork\dft_impl1_mult.srs|io:o|time:1599223445|size:9224|exec:0|csum:
+file:..\synlog\dft_impl1_multi_srs_gen.srr|io:o|time:1599223445|size:1394|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554103352|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

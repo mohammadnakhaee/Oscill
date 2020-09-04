@@ -19,8 +19,8 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/dft_impl1.bit</File>
-			<FileTime>09/04/20 14:27:41</FileTime>
+			<File>C:/Users/mohammad/Documents/FPGA/Oscill/impl1/dft_impl1.bit</File>
+			<FileTime>09/04/20 14:45:07</FileTime>
 			<Operation>Fast Program</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -45,7 +45,7 @@
 	</ProjectOptions>
 	<CableOptions>
 		<CableName>USB2</CableName>
-		<PortAdd>FTUSB-2</PortAdd>
-		<USBID>Lattice ECP5 Evaluation Board A Location 0002</USBID>
+		<PortAdd>FTUSB-1</PortAdd>
+		<USBID>Lattice ECP5 Evaluation Board A Location 0001 Serial FT2V7BBRA</USBID>
 	</CableOptions>
 </ispXCF>

@@ -14,28 +14,24 @@ Hostname: DESKTOP-93B4SA6
 Implementation : impl1
 Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
-Modified Files: 1
+Modified Files: 2
 FID:  path (prevtimestamp, timestamp)
-19       C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv (2020-09-04 14:20:20, 2020-09-04 14:25:40)
+24       C:\Users\mohammad\Documents\FPGA\Oscill\BaudClockGenerator.v (2020-06-23 13:17:20, N/A)
+29       C:\Users\mohammad\Documents\FPGA\Oscill\cmd.v (N/A, 2020-09-03 22:12:48)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 3
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
-12       work.UART_TX.verilog may have changed because the following files changed:
-                        C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv (2020-09-04 14:20:20, 2020-09-04 14:25:40) <-- (may instantiate this module)
 13       work.cmd_send.verilog may have changed because the following files changed:
-                        C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv (2020-09-04 14:20:20, 2020-09-04 14:25:40) <-- (may instantiate this module)
-5        work.top.verilog may have changed because the following files changed:
-                        C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv (2020-09-04 14:20:20, 2020-09-04 14:25:40) <-- (module definition)
+                        C:\Users\mohammad\Documents\FPGA\Oscill\cmd.v (N/A, 2020-09-03 22:12:48) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 11
+Unmodified files: 10
 FID:  path (timestamp)
-17       C:\Users\mohammad\Documents\FPGA\Bluetooth\BaudClockGenerator.v (2020-06-23 13:17:20)
-18       C:\Users\mohammad\Documents\FPGA\Bluetooth\PDE.sv (2020-06-24 12:29:42)
-23       C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v (2020-09-03 22:12:48)
-20       C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_rx.v (2020-09-03 13:29:07)
-21       C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v (2020-09-03 13:29:11)
+25       C:\Users\mohammad\Documents\FPGA\Oscill\PDE.sv (2020-06-24 12:29:42)
+26       C:\Users\mohammad\Documents\FPGA\Oscill\top.sv (2020-09-04 14:42:40)
+27       C:\Users\mohammad\Documents\FPGA\Oscill\uart_rx.v (2020-09-03 13:29:07)
+28       C:\Users\mohammad\Documents\FPGA\Oscill\uart_tx.v (2020-09-03 13:29:11)
 2        C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\ecp5um5g.v (2019-04-01 09:08:08)
 3        C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\pmi_def.v (2019-04-01 09:08:08)
 4        C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\hypermods.v (2019-04-01 09:07:44)
@@ -44,10 +40,11 @@ FID:  path (timestamp)
 7        C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\umr_capim.v (2019-04-01 09:07:44)
 
 *******************************************************************
-Unchanged modules: 5
+Unchanged modules: 6
 MID:  lib.cell.view
-6        work.BaudClockGenerator.verilog
 2        work.RK4.verilog
 11       work.UART_RX.verilog
+12       work.UART_TX.verilog
 0        work.f1.verilog
 3        work.f2.verilog
+5        work.top.verilog
