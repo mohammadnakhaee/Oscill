@@ -1,0 +1,57 @@
+----------------------------------------------------------------------
+Report for cell top.verilog
+
+Register bits: 94 of 83640 (0%)
+PIC Latch:       0
+I/O cells:       11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       31       100.0
+                            FD1P3AX       35       100.0
+                            FD1S3AX       21       100.0
+                            FD1S3IX       37       100.0
+                            FD1S3JX        1       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                                INV        3       100.0
+                                 OB        9       100.0
+                           ORCALUT4      196       100.0
+                               OSCG        1       100.0
+                              PFUMX        2       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        1       100.0
+SUB MODULES 
+             UART_TX_104s_0_1_2_3_4        1       100.0
+                           cmd_send        1       100.0
+                            
+                         TOTAL           346           
+----------------------------------------------------------------------
+Report for cell cmd_send.netlist
+     Instance path:  II_2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       14        45.2
+                            FD1P3AX        8        22.9
+                            FD1S3AX        1         4.8
+                            FD1S3IX       16        43.2
+                           ORCALUT4      131        66.8
+                              PFUMX        1        50.0
+                                VHI        1        33.3
+                            
+                         TOTAL           172           
+----------------------------------------------------------------------
+Report for cell UART_TX_104s_0_1_2_3_4.netlist
+     Instance path:  UART_TX_Inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        7        20.0
+                            FD1S3AX        4        19.0
+                            FD1S3IX       10        27.0
+                            FD1S3JX        1       100.0
+                                INV        1        33.3
+                           ORCALUT4       38        19.4
+                              PFUMX        1        50.0
+                                VHI        1        33.3
+                            
+                         TOTAL            63           

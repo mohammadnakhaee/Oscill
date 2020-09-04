@@ -1,0 +1,2 @@
+ckid0_1:@|S:baud_clk.Q[0]@|E:cmd_enable@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_4:@|S:clk.OUT[0]@|E:baud_clk@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4

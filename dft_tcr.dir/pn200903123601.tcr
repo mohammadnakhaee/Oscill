@@ -1,0 +1,18 @@
+#Start recording tcl command: 9/3/2020 09:58:33
+#Project Location: C:/Users/mohammad/Documents/FPGA/DFT; Project name: dft
+prj_project open "C:/Users/mohammad/Documents/FPGA/DFT/dft.ldf"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+pgr_project open "C:/Users/mohammad/Documents/FPGA/DFT/impl1/impl1.xcf"
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-2
+pgr_program run
+pgr_project save "C:/Users/mohammad/Documents/FPGA/DFT/impl1/impl1.xcf"
+pgr_project close
+#Stop recording: 9/3/2020 12:36:01

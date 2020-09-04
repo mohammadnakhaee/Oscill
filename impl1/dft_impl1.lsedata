@@ -1,0 +1,56 @@
+<top name = "main"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "main">
+
+    <!--
+        Top Level Pins: 14
+    -->
+
+    <pins>
+        <pitem  name = "clk_x1"  direction = "in"  />
+        <pitem  name = "rstn"  direction = "in"  />
+        <pitem  name = "DIPSW[3]"  direction = "in"  />
+        <pitem  name = "DIPSW[2]"  direction = "in"  />
+        <pitem  name = "DIPSW[1]"  direction = "in"  />
+        <pitem  name = "DIPSW[0]"  direction = "in"  />
+        <pitem  name = "LED[7]"  direction = "out"  />
+        <pitem  name = "LED[6]"  direction = "out"  />
+        <pitem  name = "LED[5]"  direction = "out"  />
+        <pitem  name = "LED[4]"  direction = "out"  />
+        <pitem  name = "LED[3]"  direction = "out"  />
+        <pitem  name = "LED[2]"  direction = "out"  />
+        <pitem  name = "LED[1]"  direction = "out"  />
+        <pitem  name = "LED[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 0
+    -->
+
+    <!--
+        Views in design "main": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

@@ -1,0 +1,1104 @@
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-93B4SA6
+
+# Fri Sep  4 14:26:37 2020
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-93B4SA6
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-93B4SA6
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\ecp5um5g.v" (library work)
+@I::"C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.11_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\BaudClockGenerator.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_rx.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\PDE.sv" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv" (library work)
+@I::"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v" (library work)
+Verilog syntax check successful!
+File C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\ecp5um5g.v":1746:7:1746:10|Synthesizing module OSCG in library work.
+Running optimization stage 1 on OSCG .......
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":14:7:14:13|Synthesizing module UART_TX in library work.
+
+	CLKS_PER_BIT=32'b00000000000000000000000001101000
+	IDLE=3'b000
+	TX_START_BIT=3'b001
+	TX_DATA_BITS=3'b010
+	TX_STOP_BIT=3'b011
+	CLEANUP=3'b100
+   Generated name = UART_TX_104s_0_1_2_3_4
+Running optimization stage 1 on UART_TX_104s_0_1_2_3_4 .......
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v":4:7:4:14|Synthesizing module cmd_send in library work.
+Running optimization stage 1 on cmd_send .......
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Synthesizing module top in library work.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":41:11:41:16|Removing wire rxdata, as there is no assignment to it.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":44:5:44:7|Removing wire rdy, as there is no assignment to it.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":51:5:51:15|Removing wire w_TX_Serial, as there is no assignment to it.
+Running optimization stage 1 on top .......
+Running optimization stage 2 on top .......
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[0]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[1]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[2]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[3]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[4]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[5]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[6]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[7]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[8]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[9]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[10]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[11]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[12]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[13]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[14]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[15]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[16]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[17]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[18]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[19]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[20]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[21]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[22]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[23]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[24]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[25]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[26]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[27]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[28]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[29]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[30]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[31]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[32]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[33]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[34]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[35]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[36]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[37]' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][0] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][2] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][3] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][1] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][3] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[43][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[43][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[44][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[44][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[45][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[45][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[46][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[46][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[47][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[48][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[48][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[49][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[49][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[50][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[50][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[51][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[52][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[52][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[53][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[53][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[54][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[55][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[55][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[56][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[56][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[57][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[59][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[60][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[60][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[61][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[61][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit n_command[5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][7] is always 0.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[39][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 4 to 1 of command[39][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[38][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 5 to 3 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of n_command[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[61][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[60][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[59][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[58][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[58][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[57][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 2 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[54][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[51][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[47][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[42][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 2 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[44][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[60][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[61][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[45][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[54][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[57][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[57][6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[59][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[43][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[46][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[39][6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[40][6:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[47][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[53][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[58][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[42][1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[48][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Sharing sequential element command[51]. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":6:28:6:31|Input rstn is unused.
+@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":8:16:8:18|Input rxd is unused.
+Running optimization stage 2 on cmd_send .......
+Running optimization stage 2 on UART_TX_104s_0_1_2_3_4 .......
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[8] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[9] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[10] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[11] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[12] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[13] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[14] is always 0.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Pruning register bits 14 to 7 of r_Clock_Count[14:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Trying to extract state machine for register r_SM_Main.
+Running optimization stage 2 on OSCG .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 102MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  4 14:26:39 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-93B4SA6
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\layer0.srs changed - recompiling
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  4 14:26:39 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  4 14:26:39 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-93B4SA6
+
+Database state : C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\|impl1
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_comp.srs changed - recompiling
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  4 14:26:40 2020
+
+###########################################################]
+# Fri Sep  4 14:26:40 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-93B4SA6
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\dft_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\dft_impl1_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[59][6:4] because it is equivalent to instance command[53][6:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[53][2] because it is equivalent to instance command[42][3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[42][3] because it is equivalent to instance command[41][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[42][0] because it is equivalent to instance command[41][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[41][2] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[58][2] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[39][5] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[40][4] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[40][2] because it is equivalent to instance command[38][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[38][6] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[41][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[39][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[42][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[52][2] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing sequential instance command[45][0] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\uart_tx.v":38:2:38:7|Removing sequential instance r_TX_Done (in view: work.UART_TX_104s_0_1_2_3_4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=208  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                     Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                      Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------
+0 -       top|clk_inferred_clock           200.0 MHz     5.000         inferred                                  Inferred_clkgroup_0     34   
+1 .         top|baud_clk_derived_clock     200.0 MHz     5.000         derived (from top|clk_inferred_clock)     Inferred_clkgroup_0     147  
+==============================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                               Clock     Source                  Clock Pin              Non-clock Pin     Non-clock Pin
+Clock                          Load      Pin                     Seq Example            Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------
+top|clk_inferred_clock         34        clk.OUT[0](mux)         baud_cnt[9:0].C        -                 -            
+top|baud_clk_derived_clock     147       baud_clk.Q[0](dffr)     command\[40\][0].C     -                 -            
+=======================================================================================================================
+
+@W: MT529 :"c:\users\mohammad\documents\fpga\bluetooth\uart_tx.v":38:2:38:7|Found inferred clock top|clk_inferred_clock which controls 34 sequential elements including UART_TX_Inst.r_SM_Main[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 181 clock pin(s) of sequential element(s)
+0 instances converted, 181 sequential instances remain driven by gated/generated clocks
+
+============================================================= Gated/Generated Clocks =============================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                               
+--------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       baud_clk.Q[0]       dffr                   147                    cmd_enable          Derived clock on input (not legal for GCC)
+@KP:ckid0_4       clk.OUT[0]          mux                    34                     baud_clk            Clock source is invalid for GCC           
+==================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Sep  4 14:26:41 2020
+
+###########################################################]
+# Fri Sep  4 14:26:41 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-93B4SA6
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "000" on instance UART_TX_Inst.r_SM_Main[2:0].
+@N: FX493 |Applying initial value "00000000" on instance UART_TX_Inst.r_TX_Data[7:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][2] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][3] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][0] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][0] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][5] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][6] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][0] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][4] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][5] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][6] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][0] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][0] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][1] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][5] because it is equivalent to instance command[54][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][3] because it is equivalent to instance command[54][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][1] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][3] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][4] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][2] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][3] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][4] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[0] because it is equivalent to instance command[60][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][4] because it is equivalent to instance command[55][3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[53][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][4] because it is equivalent to instance command[46][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][2] because it is equivalent to instance command[46][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][1] because it is equivalent to instance command[45][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[2] because it is equivalent to instance command[45][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][1] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[53][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][2] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[4] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][4] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][0] because it is equivalent to instance command[55][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][5] because it is equivalent to instance command[55][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][0] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][1] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][2] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[3] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][6] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][0] because it is equivalent to instance command[51][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][2] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][6] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][4] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Found counter in view:work.top(verilog) instance command_index[4:0] 
+@N: MF179 :"c:\users\mohammad\documents\fpga\bluetooth\cmd.v":21:7:21:21|Found 6 by 6 bit equality operator ('==') i9 (in view: work.cmd_send(verilog))
+@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\cmd.v":10:0:10:5|Removing sequential instance output_byte[7] (in view: work.cmd_send(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\uart_tx.v":38:2:38:7|Removing sequential instance UART_TX_Inst.r_TX_Data[7] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 147MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     1.92ns		 205 /        94
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 125MB peak: 162MB)
+
+Writing Analyst data base C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 159MB peak: 162MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\dft_impl1.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 165MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 165MB)
+
+@W: MT420 |Found inferred clock top|clk_inferred_clock with period 5.00ns. Please declare a user-defined clock on net clk.
+@N: MT615 |Found clock top|baud_clk_derived_clock with period 5.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Sep  4 14:26:44 2020
+#
+
+
+Top view:               top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.361
+
+                               Requested     Estimated     Requested     Estimated               Clock                                     Clock              
+Starting Clock                 Frequency     Frequency     Period        Period        Slack     Type                                      Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+top|baud_clk_derived_clock     200.0 MHz     333.2 MHz     5.000         3.002         2.970     derived (from top|clk_inferred_clock)     Inferred_clkgroup_0
+top|clk_inferred_clock         200.0 MHz     274.8 MHz     5.000         3.639         1.361     inferred                                  Inferred_clkgroup_0
+==============================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------
+Starting                    Ending                      |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------
+top|clk_inferred_clock      top|clk_inferred_clock      |  5.000       1.361  |  No paths    -      |  No paths    -      |  No paths    -    
+top|baud_clk_derived_clock  top|clk_inferred_clock      |  5.000       2.970  |  No paths    -      |  No paths    -      |  No paths    -    
+top|baud_clk_derived_clock  top|baud_clk_derived_clock  |  5.000       3.997  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|baud_clk_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                            Arrival          
+Instance                Reference                      Type        Pin     Net              Time        Slack
+                        Clock                                                                                
+-------------------------------------------------------------------------------------------------------------
+II_2.uart_enable        top|baud_clk_derived_clock     FD1P3AX     Q       enable           0.798       2.970
+II_2.i[0]               top|baud_clk_derived_clock     FD1S3IX     Q       i[0]             0.930       3.997
+command\[55\][3]        top|baud_clk_derived_clock     FD1P3AX     Q       n_command[0]     0.928       3.999
+II_2.output_byte[0]     top|baud_clk_derived_clock     FD1P3AX     Q       data[0]          0.753       4.036
+II_2.output_byte[1]     top|baud_clk_derived_clock     FD1P3AX     Q       data[1]          0.753       4.036
+II_2.output_byte[2]     top|baud_clk_derived_clock     FD1P3AX     Q       data[2]          0.753       4.036
+II_2.output_byte[3]     top|baud_clk_derived_clock     FD1P3AX     Q       data[3]          0.753       4.036
+II_2.output_byte[4]     top|baud_clk_derived_clock     FD1P3AX     Q       data[4]          0.753       4.036
+II_2.output_byte[5]     top|baud_clk_derived_clock     FD1P3AX     Q       data[5]          0.753       4.036
+II_2.output_byte[6]     top|baud_clk_derived_clock     FD1P3AX     Q       data[6]          0.753       4.036
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                  Required          
+Instance                      Reference                      Type        Pin     Net                    Time         Slack
+                              Clock                                                                                       
+--------------------------------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_TX_Active      top|baud_clk_derived_clock     FD1S3AX     D       r_TX_Active_1          4.789        2.970
+UART_TX_Inst.r_SM_Main[0]     top|baud_clk_derived_clock     FD1S3AX     D       r_SM_Main_7[0]         4.789        3.125
+UART_TX_Inst.r_TX_Data[0]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[1]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[2]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[3]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[4]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[5]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[6]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+II_2.output_byte[1]           top|baud_clk_derived_clock     FD1P3AX     D       output_byte_4[1]       9.789        3.997
+==========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.819
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.970
+
+    Number of logic level(s):                2
+    Starting point:                          II_2.uart_enable / Q
+    Ending point:                            UART_TX_Inst.r_TX_Active / D
+    The start point is clocked by            top|baud_clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+II_2.uart_enable                    FD1P3AX      Q        Out     0.798     0.798       -         
+enable                              Net          -        -       -         -           2         
+UART_TX_Inst.r_TX_Data_0_sqmuxa     ORCALUT4     A        In      0.000     0.798       -         
+UART_TX_Inst.r_TX_Data_0_sqmuxa     ORCALUT4     Z        Out     0.678     1.476       -         
+r_TX_Data_0_sqmuxa                  Net          -        -       -         -           8         
+UART_TX_Inst.r_TX_Active_1          ORCALUT4     C        In      0.000     1.476       -         
+UART_TX_Inst.r_TX_Active_1          ORCALUT4     Z        Out     0.343     1.819       -         
+r_TX_Active_1                       Net          -        -       -         -           1         
+UART_TX_Inst.r_TX_Active            FD1S3AX      D        In      0.000     1.819       -         
+==================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.125
+
+    Number of logic level(s):                2
+    Starting point:                          II_2.uart_enable / Q
+    Ending point:                            UART_TX_Inst.r_SM_Main[0] / D
+    The start point is clocked by            top|baud_clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+II_2.uart_enable                     FD1P3AX      Q        Out     0.798     0.798       -         
+enable                               Net          -        -       -         -           2         
+UART_TX_Inst.r_SM_Main_7_1_0_.m3     ORCALUT4     D        In      0.000     0.798       -         
+UART_TX_Inst.r_SM_Main_7_1_0_.m3     ORCALUT4     Z        Out     0.523     1.321       -         
+N_4                                  Net          -        -       -         -           1         
+UART_TX_Inst.r_SM_Main_7_1_0_.m5     ORCALUT4     D        In      0.000     1.321       -         
+UART_TX_Inst.r_SM_Main_7_1_0_.m5     ORCALUT4     Z        Out     0.343     1.664       -         
+r_SM_Main_7[0]                       Net          -        -       -         -           1         
+UART_TX_Inst.r_SM_Main[0]            FD1S3AX      D        In      0.000     1.664       -         
+===================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.183
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.817
+
+    - Propagation time:                      1.476
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.341
+
+    Number of logic level(s):                1
+    Starting point:                          II_2.uart_enable / Q
+    Ending point:                            UART_TX_Inst.r_TX_Data[6] / SP
+    The start point is clocked by            top|baud_clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+II_2.uart_enable                    FD1P3AX      Q        Out     0.798     0.798       -         
+enable                              Net          -        -       -         -           2         
+UART_TX_Inst.r_TX_Data_0_sqmuxa     ORCALUT4     A        In      0.000     0.798       -         
+UART_TX_Inst.r_TX_Data_0_sqmuxa     ORCALUT4     Z        Out     0.678     1.476       -         
+r_TX_Data_0_sqmuxa                  Net          -        -       -         -           8         
+UART_TX_Inst.r_TX_Data[6]           FD1P3AX      SP       In      0.000     1.476       -         
+==================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: top|clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                            Arrival          
+Instance                          Reference                  Type        Pin     Net                  Time        Slack
+                                  Clock                                                                                
+-----------------------------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_Bit_Index[2]       top|clk_inferred_clock     FD1S3IX     Q       r_Bit_Index[2]       0.888       1.361
+UART_TX_Inst.r_TX_Data[1]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[1]         0.753       1.496
+UART_TX_Inst.r_TX_Data[5]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[5]         0.753       1.496
+UART_TX_Inst.r_TX_Data[0]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[0]         0.753       1.696
+UART_TX_Inst.r_TX_Data[2]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[2]         0.753       1.696
+UART_TX_Inst.r_TX_Data[4]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[4]         0.753       1.696
+UART_TX_Inst.r_TX_Data[6]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[6]         0.753       1.696
+UART_TX_Inst.r_Clock_Count[5]     top|clk_inferred_clock     FD1S3IX     Q       r_Clock_Count[5]     0.863       1.722
+UART_TX_Inst.r_Bit_Index[1]       top|clk_inferred_clock     FD1S3IX     Q       r_Bit_Index[1]       0.883       1.734
+UART_TX_Inst.r_Clock_Count[0]     top|clk_inferred_clock     FD1S3IX     Q       r_Clock_Count[0]     0.883       1.746
+=======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                                                    Required          
+Instance                          Reference                  Type        Pin     Net                          Time         Slack
+                                  Clock                                                                                         
+--------------------------------------------------------------------------------------------------------------------------------
+UART_TX_Inst.o_TX_Serial          top|clk_inferred_clock     FD1S3JX     PD      fb                           4.684        1.361
+UART_TX_Inst.r_Bit_Index[0]       top|clk_inferred_clock     FD1S3IX     D       r_Bit_Index_5[0]             4.789        1.722
+UART_TX_Inst.r_Bit_Index[1]       top|clk_inferred_clock     FD1S3IX     D       r_Bit_Index_5[1]             4.789        1.722
+UART_TX_Inst.r_Bit_Index[2]       top|clk_inferred_clock     FD1S3IX     D       r_Bit_Index_5[2]             4.789        1.722
+UART_TX_Inst.r_Clock_Count[1]     top|clk_inferred_clock     FD1S3IX     D       un1_r_Clock_Count_axbxc1     4.789        1.762
+UART_TX_Inst.r_Clock_Count[2]     top|clk_inferred_clock     FD1S3IX     D       un1_r_Clock_Count_axbxc2     4.789        1.762
+UART_TX_Inst.r_TX_Active          top|clk_inferred_clock     FD1S3AX     D       r_TX_Active_1                4.789        1.762
+UART_TX_Inst.r_SM_Main[0]         top|clk_inferred_clock     FD1S3AX     D       r_SM_Main_7[0]               4.789        1.806
+UART_TX_Inst.r_Clock_Count[0]     top|clk_inferred_clock     FD1S3IX     CD      un1_r_SM_Main_5_i            4.684        1.899
+UART_TX_Inst.r_Clock_Count[1]     top|clk_inferred_clock     FD1S3IX     CD      un1_r_SM_Main_5_i            4.684        1.899
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.316
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.684
+
+    - Propagation time:                      3.323
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.361
+
+    Number of logic level(s):                5
+    Starting point:                          UART_TX_Inst.r_Bit_Index[2] / Q
+    Ending point:                            UART_TX_Inst.o_TX_Serial / PD
+    The start point is clocked by            top|clk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_Bit_Index[2]         FD1S3IX      Q        Out     0.888     0.888       -         
+r_Bit_Index[2]                      Net          -        -       -         -           6         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     A        In      0.000     0.888       -         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     Z        Out     0.523     1.411       -         
+N_36                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     A        In      0.000     1.411       -         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     Z        Out     0.523     1.934       -         
+N_38                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     B        In      0.000     1.934       -         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     Z        Out     0.523     2.457       -         
+o_TX_Serial_2                       Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     A        In      0.000     2.457       -         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     Z        Out     0.523     2.980       -         
+o_TX_Serial_3_iv_i                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     A        In      0.000     2.980       -         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     Z        Out     0.343     3.323       -         
+fb                                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial            FD1S3JX      PD       In      0.000     3.323       -         
+==================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.316
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.684
+
+    - Propagation time:                      3.188
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.496
+
+    Number of logic level(s):                5
+    Starting point:                          UART_TX_Inst.r_TX_Data[1] / Q
+    Ending point:                            UART_TX_Inst.o_TX_Serial / PD
+    The start point is clocked by            top|clk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_TX_Data[1]           FD1P3AX      Q        Out     0.753     0.753       -         
+r_TX_Data[1]                        Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     B        In      0.000     0.753       -         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     Z        Out     0.523     1.276       -         
+N_36                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     A        In      0.000     1.276       -         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     Z        Out     0.523     1.799       -         
+N_38                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     B        In      0.000     1.799       -         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     Z        Out     0.523     2.322       -         
+o_TX_Serial_2                       Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     A        In      0.000     2.322       -         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     Z        Out     0.523     2.845       -         
+o_TX_Serial_3_iv_i                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     A        In      0.000     2.845       -         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     Z        Out     0.343     3.188       -         
+fb                                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial            FD1S3JX      PD       In      0.000     3.188       -         
+==================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.316
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.684
+
+    - Propagation time:                      3.188
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.496
+
+    Number of logic level(s):                5
+    Starting point:                          UART_TX_Inst.r_TX_Data[5] / Q
+    Ending point:                            UART_TX_Inst.o_TX_Serial / PD
+    The start point is clocked by            top|clk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_TX_Data[5]           FD1P3AX      Q        Out     0.753     0.753       -         
+r_TX_Data[5]                        Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     C        In      0.000     0.753       -         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     Z        Out     0.523     1.276       -         
+N_36                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     A        In      0.000     1.276       -         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     Z        Out     0.523     1.799       -         
+N_38                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     B        In      0.000     1.799       -         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     Z        Out     0.523     2.322       -         
+o_TX_Serial_2                       Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     A        In      0.000     2.322       -         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     Z        Out     0.523     2.845       -         
+o_TX_Serial_3_iv_i                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     A        In      0.000     2.845       -         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     Z        Out     0.343     3.188       -         
+fb                                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial            FD1S3JX      PD       In      0.000     3.188       -         
+==================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 165MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 165MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5um5g_85f-8
+
+Register bits: 94 of 83640 (0%)
+PIC Latch:       0
+I/O cells:       11
+
+
+Details:
+CCU2C:          31
+FD1P3AX:        35
+FD1S3AX:        21
+FD1S3IX:        37
+FD1S3JX:        1
+GSR:            1
+IB:             2
+INV:            3
+OB:             9
+ORCALUT4:       196
+OSCG:           1
+PFUMX:          2
+PUR:            1
+VHI:            3
+VLO:            1
+false:          2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 165MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Sep  4 14:26:44 2020
+
+###########################################################]

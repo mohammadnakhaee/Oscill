@@ -1,0 +1,270 @@
+
+             Lattice Mapping Report File for Design Module 'top'
+
+
+Design Information
+------------------
+
+Command line:   map -a ECP5UM5G -p LFE5UM5G-85F -t CABGA381 -s 8 -oc Commercial
+     dft_impl1.ngd -o dft_impl1_map.ncd -pr dft_impl1.prf -mp dft_impl1.mrp -lpf
+     C:/Users/mohammad/Documents/FPGA/Bluetooth/impl1/dft_impl1_synplify.lpf
+     -lpf C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.lpf -gui -msgset
+     C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LFE5UM5G-85FCABGA381
+Target Performance:   8
+Mapper:  sa5p00g,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  09/04/20  14:26:46
+
+Design Summary
+--------------
+
+   Number of registers:     94 out of 84255 (0%)
+      PFU registers:           94 out of 83640 (0%)
+      PIO registers:            0 out of   615 (0%)
+   Number of SLICEs:       150 out of 41820 (0%)
+      SLICEs as Logic/ROM:    150 out of 41820 (0%)
+      SLICEs as RAM:            0 out of 31365 (0%)
+      SLICEs as Carry:         31 out of 41820 (0%)
+   Number of LUT4s:        261 out of 83640 (0%)
+      Number used as logic LUTs:        199
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       62
+      Number used as shift registers:     0
+   Number of PIO sites used: 11 out of 205 (5%)
+   Number of block RAMs:  0 out of 208 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   DTR used :   No
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSOB):  0 out of 4 (0%)
+   Number of DCC:  0 out of 60 (0%)
+   Number of DCS:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 4 (0%)
+   Number of DDRDLLs:  0 out of 4 (0%)
+   Number of CLKDIV:  0 out of 4 (0%)
+   Number of ECLKSYNC:  0 out of 10 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Number of DCUs:  0 out of 2 (0%)
+   Number of DCU Channels:  0 out of 4 (0%)
+   Number of EXTREFs:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18D          0
+
+                                    Page 1
+
+
+
+
+Design:  top                                           Date:  09/04/20  14:26:46
+
+Design Summary (cont)
+---------------------
+   MULT9X9D            0
+   ALU54B              0
+   ALU24B              0
+   PRADD18A            0
+   PRADD9A             0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 312 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 156 (0 %)
+   Number of Used DSP PRADD Sites:  0 out of 312 (0 %)
+   Number of clocks:  2
+     Net clk: 22 loads, 22 rising, 0 falling (Driver: clk )
+     Net baud_clk: 40 loads, 40 rising, 0 falling (Driver: baud_clk )
+   Number of Clock Enables:  5
+     Net command_index38: 3 loads, 3 LSLICEs
+     Net II_2/send: 1 loads, 1 LSLICEs
+     Net II_2/un1_output_byte81_i: 4 loads, 4 LSLICEs
+     Net UART_TX_Inst/r_TX_Data_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net command[0]_1_sqmuxa: 11 loads, 11 LSLICEs
+   Number of LSRs:  7
+     Net baud_cnt10: 3 loads, 3 LSLICEs
+     Net command_index38: 4 loads, 4 LSLICEs
+     Net II_2/send_cnt_0_sqmuxa_i_0_RNICU5R: 6 loads, 6 LSLICEs
+     Net II_2/N_41_i: 4 loads, 4 LSLICEs
+     Net UART_TX_Inst/o_TX_Serial7: 2 loads, 2 LSLICEs
+     Net UART_TX_Inst/fb: 1 loads, 1 LSLICEs
+     Net UART_TX_Inst/un1_r_SM_Main_5_i: 4 loads, 4 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net II_2/output_byte_1[2]: 39 loads
+     Net II_2/output_byte_1_i[0]: 23 loads
+     Net II_2/output_byte_1[1]: 21 loads
+     Net II_2/output_byte_1[3]: 21 loads
+     Net II_2/i[0]: 16 loads
+     Net n_command[0]: 15 loads
+     Net command[40][6]: 14 loads
+     Net command_index[3]: 14 loads
+     Net command_index[4]: 14 loads
+     Net II_2/N_169: 13 loads
+
+
+
+
+   Number of warnings:  3
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: C:/Users/mohammad/Documents/FPGA/Bluetooth/dft.lpf(14): Semantic
+     error in "IOBUF PORT "rstn" IO_TYPE=LVCMOS33 ;": Port "rstn" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: IO buffer missing for top level port rstn...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port rxd...logic will be
+     discarded.
+
+                                    Page 2
+
+
+
+
+Design:  top                                           Date:  09/04/20  14:26:46
+
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| LED[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk12M              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| txd                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED[7]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED[6]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED[5]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED[4]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED[3]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selectClock         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block UART_TX_Inst/VCC undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal II_2/VCC undriven or does not drive anything - clipped.
+Signal un2_baud_cnt_1_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un2_baud_cnt_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Signal un2_send_cnt_1_cry_13_0_COUT undriven or does not drive anything -
+     clipped.
+Signal un2_send_cnt_1_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un2_send_cnt_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_2 undriven or does not drive anything - clipped.
+Signal command_index_cry_0_COUT[3] undriven or does not drive anything -
+     clipped.
+Signal command_index_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal N_3 undriven or does not drive anything - clipped.
+Signal II_2/output_byte_1_s_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal II_2/output_byte_1_s_5_0_COUT undriven or does not drive anything -
+     clipped.
+Signal II_2/output_byte_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal II_2/output_byte_1_cry_0_0_S0 undriven or does not drive anything -
+
+                                    Page 3
+
+
+
+
+Design:  top                                           Date:  09/04/20  14:26:46
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal II_2/N_1 undriven or does not drive anything - clipped.
+Signal II_2/un1_send_cnt_11_s_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal II_2/un1_send_cnt_11_s_9_0_COUT undriven or does not drive anything -
+     clipped.
+Signal II_2/un1_send_cnt_11_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal II_2/N_2 undriven or does not drive anything - clipped.
+Signal II_2/un1_i_s_5_0_S1 undriven or does not drive anything - clipped.
+Signal II_2/un1_i_s_5_0_COUT undriven or does not drive anything - clipped.
+Signal II_2/un1_i_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal II_2/N_3 undriven or does not drive anything - clipped.
+Signal un2_baud_cnt_1_s_9_0_S1 undriven or does not drive anything - clipped.
+Signal un2_baud_cnt_1_s_9_0_COUT undriven or does not drive anything - clipped.
+Block GND was optimized away.
+Block VCC was optimized away.
+Block II_2/VCC was optimized away.
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                OSCI1
+  OSC Type:                                         OSCG
+  OSC Output:                              NODE     osc_clk
+  OSC Divider Ratio:                                128
+
+ASIC Components
+---------------
+
+Instance Name: OSCI1
+         Type: OSCG
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 244 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 4
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
+     reserved.

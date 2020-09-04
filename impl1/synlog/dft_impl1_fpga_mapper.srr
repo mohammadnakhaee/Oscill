@@ -1,0 +1,610 @@
+# Fri Sep  4 14:26:41 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-93B4SA6
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "000" on instance UART_TX_Inst.r_SM_Main[2:0].
+@N: FX493 |Applying initial value "00000000" on instance UART_TX_Inst.r_TX_Data[7:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][2] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][1] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][3] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][5] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][0] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][6] because it is equivalent to instance command[40][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][0] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][5] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][6] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][0] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][4] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][5] because it is equivalent to instance command[47][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][6] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][0] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][0] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][1] because it is equivalent to instance command[53][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][5] because it is equivalent to instance command[54][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][3] because it is equivalent to instance command[54][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][1] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][3] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][4] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][2] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][0] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][3] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][4] because it is equivalent to instance command[40][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[0] because it is equivalent to instance command[60][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[60][4] because it is equivalent to instance command[55][3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[53][4] because it is equivalent to instance command[51][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][4] because it is equivalent to instance command[46][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][2] because it is equivalent to instance command[46][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][1] because it is equivalent to instance command[45][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[2] because it is equivalent to instance command[45][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][1] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[53][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[58][5] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[46][0] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][2] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][6] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[4] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][4] because it is equivalent to instance command[44][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][0] because it is equivalent to instance command[55][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[55][5] because it is equivalent to instance command[55][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[57][0] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][1] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][2] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance n_command[3] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][6] because it is equivalent to instance command[54][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[52][0] because it is equivalent to instance command[51][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][2] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][6] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[50][4] because it is equivalent to instance command[46][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[54][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][4] because it is equivalent to instance command[53][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[49][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[51][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[47][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[44][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[48][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][0] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[61][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[45][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[41][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[43][5] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[56][2] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Removing instance command[59][1] because it is equivalent to instance command[38][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\mohammad\documents\fpga\bluetooth\top.sv":100:0:100:5|Found counter in view:work.top(verilog) instance command_index[4:0] 
+@N: MF179 :"c:\users\mohammad\documents\fpga\bluetooth\cmd.v":21:7:21:21|Found 6 by 6 bit equality operator ('==') i9 (in view: work.cmd_send(verilog))
+@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\cmd.v":10:0:10:5|Removing sequential instance output_byte[7] (in view: work.cmd_send(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@N: BN362 :"c:\users\mohammad\documents\fpga\bluetooth\uart_tx.v":38:2:38:7|Removing sequential instance UART_TX_Inst.r_TX_Data[7] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 147MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     1.92ns		 205 /        94
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 125MB peak: 162MB)
+
+Writing Analyst data base C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\synwork\dft_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 159MB peak: 162MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\mohammad\Documents\FPGA\Bluetooth\impl1\dft_impl1.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 165MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 165MB)
+
+@W: MT420 |Found inferred clock top|clk_inferred_clock with period 5.00ns. Please declare a user-defined clock on net clk.
+@N: MT615 |Found clock top|baud_clk_derived_clock with period 5.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Sep  4 14:26:44 2020
+#
+
+
+Top view:               top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.361
+
+                               Requested     Estimated     Requested     Estimated               Clock                                     Clock              
+Starting Clock                 Frequency     Frequency     Period        Period        Slack     Type                                      Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+top|baud_clk_derived_clock     200.0 MHz     333.2 MHz     5.000         3.002         2.970     derived (from top|clk_inferred_clock)     Inferred_clkgroup_0
+top|clk_inferred_clock         200.0 MHz     274.8 MHz     5.000         3.639         1.361     inferred                                  Inferred_clkgroup_0
+==============================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------
+Starting                    Ending                      |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------
+top|clk_inferred_clock      top|clk_inferred_clock      |  5.000       1.361  |  No paths    -      |  No paths    -      |  No paths    -    
+top|baud_clk_derived_clock  top|clk_inferred_clock      |  5.000       2.970  |  No paths    -      |  No paths    -      |  No paths    -    
+top|baud_clk_derived_clock  top|baud_clk_derived_clock  |  5.000       3.997  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|baud_clk_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                            Arrival          
+Instance                Reference                      Type        Pin     Net              Time        Slack
+                        Clock                                                                                
+-------------------------------------------------------------------------------------------------------------
+II_2.uart_enable        top|baud_clk_derived_clock     FD1P3AX     Q       enable           0.798       2.970
+II_2.i[0]               top|baud_clk_derived_clock     FD1S3IX     Q       i[0]             0.930       3.997
+command\[55\][3]        top|baud_clk_derived_clock     FD1P3AX     Q       n_command[0]     0.928       3.999
+II_2.output_byte[0]     top|baud_clk_derived_clock     FD1P3AX     Q       data[0]          0.753       4.036
+II_2.output_byte[1]     top|baud_clk_derived_clock     FD1P3AX     Q       data[1]          0.753       4.036
+II_2.output_byte[2]     top|baud_clk_derived_clock     FD1P3AX     Q       data[2]          0.753       4.036
+II_2.output_byte[3]     top|baud_clk_derived_clock     FD1P3AX     Q       data[3]          0.753       4.036
+II_2.output_byte[4]     top|baud_clk_derived_clock     FD1P3AX     Q       data[4]          0.753       4.036
+II_2.output_byte[5]     top|baud_clk_derived_clock     FD1P3AX     Q       data[5]          0.753       4.036
+II_2.output_byte[6]     top|baud_clk_derived_clock     FD1P3AX     Q       data[6]          0.753       4.036
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                  Required          
+Instance                      Reference                      Type        Pin     Net                    Time         Slack
+                              Clock                                                                                       
+--------------------------------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_TX_Active      top|baud_clk_derived_clock     FD1S3AX     D       r_TX_Active_1          4.789        2.970
+UART_TX_Inst.r_SM_Main[0]     top|baud_clk_derived_clock     FD1S3AX     D       r_SM_Main_7[0]         4.789        3.125
+UART_TX_Inst.r_TX_Data[0]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[1]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[2]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[3]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[4]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[5]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+UART_TX_Inst.r_TX_Data[6]     top|baud_clk_derived_clock     FD1P3AX     SP      r_TX_Data_0_sqmuxa     4.817        3.341
+II_2.output_byte[1]           top|baud_clk_derived_clock     FD1P3AX     D       output_byte_4[1]       9.789        3.997
+==========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.819
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.970
+
+    Number of logic level(s):                2
+    Starting point:                          II_2.uart_enable / Q
+    Ending point:                            UART_TX_Inst.r_TX_Active / D
+    The start point is clocked by            top|baud_clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+II_2.uart_enable                    FD1P3AX      Q        Out     0.798     0.798       -         
+enable                              Net          -        -       -         -           2         
+UART_TX_Inst.r_TX_Data_0_sqmuxa     ORCALUT4     A        In      0.000     0.798       -         
+UART_TX_Inst.r_TX_Data_0_sqmuxa     ORCALUT4     Z        Out     0.678     1.476       -         
+r_TX_Data_0_sqmuxa                  Net          -        -       -         -           8         
+UART_TX_Inst.r_TX_Active_1          ORCALUT4     C        In      0.000     1.476       -         
+UART_TX_Inst.r_TX_Active_1          ORCALUT4     Z        Out     0.343     1.819       -         
+r_TX_Active_1                       Net          -        -       -         -           1         
+UART_TX_Inst.r_TX_Active            FD1S3AX      D        In      0.000     1.819       -         
+==================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.125
+
+    Number of logic level(s):                2
+    Starting point:                          II_2.uart_enable / Q
+    Ending point:                            UART_TX_Inst.r_SM_Main[0] / D
+    The start point is clocked by            top|baud_clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+II_2.uart_enable                     FD1P3AX      Q        Out     0.798     0.798       -         
+enable                               Net          -        -       -         -           2         
+UART_TX_Inst.r_SM_Main_7_1_0_.m3     ORCALUT4     D        In      0.000     0.798       -         
+UART_TX_Inst.r_SM_Main_7_1_0_.m3     ORCALUT4     Z        Out     0.523     1.321       -         
+N_4                                  Net          -        -       -         -           1         
+UART_TX_Inst.r_SM_Main_7_1_0_.m5     ORCALUT4     D        In      0.000     1.321       -         
+UART_TX_Inst.r_SM_Main_7_1_0_.m5     ORCALUT4     Z        Out     0.343     1.664       -         
+r_SM_Main_7[0]                       Net          -        -       -         -           1         
+UART_TX_Inst.r_SM_Main[0]            FD1S3AX      D        In      0.000     1.664       -         
+===================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.183
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.817
+
+    - Propagation time:                      1.476
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.341
+
+    Number of logic level(s):                1
+    Starting point:                          II_2.uart_enable / Q
+    Ending point:                            UART_TX_Inst.r_TX_Data[6] / SP
+    The start point is clocked by            top|baud_clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+II_2.uart_enable                    FD1P3AX      Q        Out     0.798     0.798       -         
+enable                              Net          -        -       -         -           2         
+UART_TX_Inst.r_TX_Data_0_sqmuxa     ORCALUT4     A        In      0.000     0.798       -         
+UART_TX_Inst.r_TX_Data_0_sqmuxa     ORCALUT4     Z        Out     0.678     1.476       -         
+r_TX_Data_0_sqmuxa                  Net          -        -       -         -           8         
+UART_TX_Inst.r_TX_Data[6]           FD1P3AX      SP       In      0.000     1.476       -         
+==================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: top|clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                            Arrival          
+Instance                          Reference                  Type        Pin     Net                  Time        Slack
+                                  Clock                                                                                
+-----------------------------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_Bit_Index[2]       top|clk_inferred_clock     FD1S3IX     Q       r_Bit_Index[2]       0.888       1.361
+UART_TX_Inst.r_TX_Data[1]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[1]         0.753       1.496
+UART_TX_Inst.r_TX_Data[5]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[5]         0.753       1.496
+UART_TX_Inst.r_TX_Data[0]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[0]         0.753       1.696
+UART_TX_Inst.r_TX_Data[2]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[2]         0.753       1.696
+UART_TX_Inst.r_TX_Data[4]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[4]         0.753       1.696
+UART_TX_Inst.r_TX_Data[6]         top|clk_inferred_clock     FD1P3AX     Q       r_TX_Data[6]         0.753       1.696
+UART_TX_Inst.r_Clock_Count[5]     top|clk_inferred_clock     FD1S3IX     Q       r_Clock_Count[5]     0.863       1.722
+UART_TX_Inst.r_Bit_Index[1]       top|clk_inferred_clock     FD1S3IX     Q       r_Bit_Index[1]       0.883       1.734
+UART_TX_Inst.r_Clock_Count[0]     top|clk_inferred_clock     FD1S3IX     Q       r_Clock_Count[0]     0.883       1.746
+=======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                                                    Required          
+Instance                          Reference                  Type        Pin     Net                          Time         Slack
+                                  Clock                                                                                         
+--------------------------------------------------------------------------------------------------------------------------------
+UART_TX_Inst.o_TX_Serial          top|clk_inferred_clock     FD1S3JX     PD      fb                           4.684        1.361
+UART_TX_Inst.r_Bit_Index[0]       top|clk_inferred_clock     FD1S3IX     D       r_Bit_Index_5[0]             4.789        1.722
+UART_TX_Inst.r_Bit_Index[1]       top|clk_inferred_clock     FD1S3IX     D       r_Bit_Index_5[1]             4.789        1.722
+UART_TX_Inst.r_Bit_Index[2]       top|clk_inferred_clock     FD1S3IX     D       r_Bit_Index_5[2]             4.789        1.722
+UART_TX_Inst.r_Clock_Count[1]     top|clk_inferred_clock     FD1S3IX     D       un1_r_Clock_Count_axbxc1     4.789        1.762
+UART_TX_Inst.r_Clock_Count[2]     top|clk_inferred_clock     FD1S3IX     D       un1_r_Clock_Count_axbxc2     4.789        1.762
+UART_TX_Inst.r_TX_Active          top|clk_inferred_clock     FD1S3AX     D       r_TX_Active_1                4.789        1.762
+UART_TX_Inst.r_SM_Main[0]         top|clk_inferred_clock     FD1S3AX     D       r_SM_Main_7[0]               4.789        1.806
+UART_TX_Inst.r_Clock_Count[0]     top|clk_inferred_clock     FD1S3IX     CD      un1_r_SM_Main_5_i            4.684        1.899
+UART_TX_Inst.r_Clock_Count[1]     top|clk_inferred_clock     FD1S3IX     CD      un1_r_SM_Main_5_i            4.684        1.899
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.316
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.684
+
+    - Propagation time:                      3.323
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.361
+
+    Number of logic level(s):                5
+    Starting point:                          UART_TX_Inst.r_Bit_Index[2] / Q
+    Ending point:                            UART_TX_Inst.o_TX_Serial / PD
+    The start point is clocked by            top|clk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_Bit_Index[2]         FD1S3IX      Q        Out     0.888     0.888       -         
+r_Bit_Index[2]                      Net          -        -       -         -           6         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     A        In      0.000     0.888       -         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     Z        Out     0.523     1.411       -         
+N_36                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     A        In      0.000     1.411       -         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     Z        Out     0.523     1.934       -         
+N_38                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     B        In      0.000     1.934       -         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     Z        Out     0.523     2.457       -         
+o_TX_Serial_2                       Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     A        In      0.000     2.457       -         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     Z        Out     0.523     2.980       -         
+o_TX_Serial_3_iv_i                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     A        In      0.000     2.980       -         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     Z        Out     0.343     3.323       -         
+fb                                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial            FD1S3JX      PD       In      0.000     3.323       -         
+==================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.316
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.684
+
+    - Propagation time:                      3.188
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.496
+
+    Number of logic level(s):                5
+    Starting point:                          UART_TX_Inst.r_TX_Data[1] / Q
+    Ending point:                            UART_TX_Inst.o_TX_Serial / PD
+    The start point is clocked by            top|clk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_TX_Data[1]           FD1P3AX      Q        Out     0.753     0.753       -         
+r_TX_Data[1]                        Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     B        In      0.000     0.753       -         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     Z        Out     0.523     1.276       -         
+N_36                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     A        In      0.000     1.276       -         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     Z        Out     0.523     1.799       -         
+N_38                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     B        In      0.000     1.799       -         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     Z        Out     0.523     2.322       -         
+o_TX_Serial_2                       Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     A        In      0.000     2.322       -         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     Z        Out     0.523     2.845       -         
+o_TX_Serial_3_iv_i                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     A        In      0.000     2.845       -         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     Z        Out     0.343     3.188       -         
+fb                                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial            FD1S3JX      PD       In      0.000     3.188       -         
+==================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.316
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.684
+
+    - Propagation time:                      3.188
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.496
+
+    Number of logic level(s):                5
+    Starting point:                          UART_TX_Inst.r_TX_Data[5] / Q
+    Ending point:                            UART_TX_Inst.o_TX_Serial / PD
+    The start point is clocked by            top|clk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_inferred_clock [rising] on pin CK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+UART_TX_Inst.r_TX_Data[5]           FD1P3AX      Q        Out     0.753     0.753       -         
+r_TX_Data[5]                        Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     C        In      0.000     0.753       -         
+UART_TX_Inst.o_TX_Serial_2_4        ORCALUT4     Z        Out     0.523     1.276       -         
+N_36                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     A        In      0.000     1.276       -         
+UART_TX_Inst.o_TX_Serial_2_6        ORCALUT4     Z        Out     0.523     1.799       -         
+N_38                                Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     B        In      0.000     1.799       -         
+UART_TX_Inst.o_TX_Serial_2_7        ORCALUT4     Z        Out     0.523     2.322       -         
+o_TX_Serial_2                       Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     A        In      0.000     2.322       -         
+UART_TX_Inst.o_TX_Serial_3_iv_i     ORCALUT4     Z        Out     0.523     2.845       -         
+o_TX_Serial_3_iv_i                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     A        In      0.000     2.845       -         
+UART_TX_Inst.o_TX_Serial.fb         ORCALUT4     Z        Out     0.343     3.188       -         
+fb                                  Net          -        -       -         -           1         
+UART_TX_Inst.o_TX_Serial            FD1S3JX      PD       In      0.000     3.188       -         
+==================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 165MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 165MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5um5g_85f-8
+
+Register bits: 94 of 83640 (0%)
+PIC Latch:       0
+I/O cells:       11
+
+
+Details:
+CCU2C:          31
+FD1P3AX:        35
+FD1S3AX:        21
+FD1S3IX:        37
+FD1S3JX:        1
+GSR:            1
+IB:             2
+INV:            3
+OB:             9
+ORCALUT4:       196
+OSCG:           1
+PFUMX:          2
+PUR:            1
+VHI:            3
+VLO:            1
+false:          2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 165MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Sep  4 14:26:44 2020
+
+###########################################################]

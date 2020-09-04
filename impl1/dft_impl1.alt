@@ -1,0 +1,22 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Sep 04 14:27:41 2020 *
+NOTE DESIGN NAME: top *
+NOTE DEVICE NAME: LFE5UM5G-85F-8CABGA381 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS LED[0] : A13 : out *
+NOTE PINS clk12M : A10 : in *
+NOTE PINS txd : B12 : out *
+NOTE PINS LED[7] : B17 : out *
+NOTE PINS LED[6] : A17 : out *
+NOTE PINS LED[5] : C17 : out *
+NOTE PINS LED[4] : B18 : out *
+NOTE PINS LED[3] : A18 : out *
+NOTE PINS LED[2] : B19 : out *
+NOTE PINS LED[1] : A12 : out *
+NOTE PINS selectClock : R17 : in *
+NOTE PINS SYSCONFIG_PIN_D1 : V2 : inout *
+NOTE PINS SYSCONFIG_PIN_D0 : W2 : inout *
+NOTE PINS SYSCONFIG_PIN_HOLDN : R2 : inout *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: off *

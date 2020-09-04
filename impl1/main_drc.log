@@ -1,0 +1,29 @@
+Results of NGD DRC are available in main_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/sa5p00m/data/sa5mlib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'clk_x1' has no load.
+WARNING - synthesis: input pad net 'clk_x1' has no legal load.
+WARNING - synthesis: logical net 'rstn' has no load.
+WARNING - synthesis: input pad net 'rstn' has no legal load.
+WARNING - synthesis: logical net 'DIPSW[3]' has no load.
+WARNING - synthesis: input pad net 'DIPSW[3]' has no legal load.
+WARNING - synthesis: logical net 'DIPSW[2]' has no load.
+WARNING - synthesis: input pad net 'DIPSW[2]' has no legal load.
+WARNING - synthesis: logical net 'DIPSW[1]' has no load.
+WARNING - synthesis: input pad net 'DIPSW[1]' has no legal load.
+WARNING - synthesis: logical net 'DIPSW[0]' has no load.
+WARNING - synthesis: input pad net 'DIPSW[0]' has no legal load.
+WARNING - synthesis: DRC complete with 12 warnings.
+
+Design Results:
+     12 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file dft_impl1.ngd.

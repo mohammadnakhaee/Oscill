@@ -1,0 +1,9 @@
+----------------------------------------------------------------------
+Report for cell main.TECH
+Register bits:  0 of 84255 (0.000%)
+I/O cells:      8
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                GSR         1          100.0
+                                 OB         8          100.0
+                              TOTAL         9

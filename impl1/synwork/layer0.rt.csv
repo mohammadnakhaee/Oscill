@@ -1,0 +1,5 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, top, 0h:00m:00s,     78 MB
+work, cmd_send, 0h:00m:01s,    102 MB
+work, UART_TX_104s_0_1_2_3_4, 0h:00m:00s,    102 MB
+work, OSCG, 0h:00m:00s,    102 MB

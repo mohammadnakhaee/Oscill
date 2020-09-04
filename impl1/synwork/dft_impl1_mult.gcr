@@ -1,0 +1,23 @@
+i baud_clk_i
+m 0 0
+u 47 147
+n ckid0_0 {t:II_2.send.C} Derived clock on input (not legal for GCC)
+p {t:baud_clk.Q[0]}{t:baud_clk_derived_clock.I[0]}{t:baud_clk_derived_clock.OUT[0]}{t:cmd_enable.C}
+e ckid0_1 {t:cmd_enable.C} dffr
+d ckid0_2 {t:baud_clk.Q[0]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i clk
+m 0 0
+u 17 34
+n ckid0_3 {t:UART_TX_Inst.r_SM_Main[0].C} Clock source is invalid for GCC
+p {t:clk_inferred_clock.OUT[0]}{t:baud_clk.C}
+e ckid0_4 {t:baud_clk.C} dffr
+d ckid0_3,ckid0_4 {t:clk.OUT[0]} mux Clock source is invalid for GCC
+i clk_i
+m 0 0
+u 0 0
+d ckid0_5 {t:clk.OUT[0]} mux Clock source is invalid for GCC
+i osc_clk
+m 0 0
+u 0 0
+d ckid0_6 {t:OSCI1.OSC} OSCG Black box on clock path
+l 0 0 0 0 0

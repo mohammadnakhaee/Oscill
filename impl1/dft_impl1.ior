@@ -1,0 +1,51 @@
+Loading design for application iotiming from file dft_impl1.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5UM5G-85F
+Package:     CABGA381
+Performance: 9
+Package Status:                     Final          Version 1.43.
+Performance Hardware Data Status:   Final          Version 55.1.
+Loading design for application iotiming from file dft_impl1.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5UM5G-85F
+Package:     CABGA381
+Performance: M
+Package Status:                     Final          Version 1.43.
+Performance Hardware Data Status:   Final          Version 55.1.
+// Design: top
+// Package: CABGA381
+// ncd File: dft_impl1.ncd
+// Version: Diamond (64-bit) 3.11.0.396.4
+// Written on Fri Sep 04 14:27:29 2020
+// M: Minimum Performance Grade
+// iotiming dft_impl1.ncd dft_impl1.prf -gui -msgset C:/Users/mohammad/Documents/FPGA/Bluetooth/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port   Clock       Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+LED[0] clk12M      R    11.462         8        5.351          M
+LED[0] selectClock R    10.810         8        5.161          M
+LED[1] clk12M      R    11.910         8        5.488          M
+LED[1] selectClock R    11.258         8        5.298          M
+LED[3] clk12M      R    13.313         8        6.208          M
+LED[3] selectClock R    12.661         8        6.018          M
+LED[5] clk12M      R    13.160         8        6.132          M
+LED[5] selectClock R    12.508         8        5.942          M
+txd    clk12M      R    11.026         8        5.120          M
+txd    selectClock R    10.374         8        4.930          M

@@ -1,0 +1,111 @@
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":41:11:41:16|Removing wire rxdata, as there is no assignment to it.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":44:5:44:7|Removing wire rdy, as there is no assignment to it.
+@W: CG360 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":51:5:51:15|Removing wire w_TX_Serial, as there is no assignment to it.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[0]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[1]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[2]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[3]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[4]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[5]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[6]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[7]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[8]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[9]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[10]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[11]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[12]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[13]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[14]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[15]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[16]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[17]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[18]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[19]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[20]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[21]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[22]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[23]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[24]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[25]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[26]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[27]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[28]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[29]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[30]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[31]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[32]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[33]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[34]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[35]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[36]' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Removing register 'command[37]' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[39][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 4 to 1 of command[39][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[38][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 5 to 3 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[38][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of n_command[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[61][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[60][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[59][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[58][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 1 to 0 of command[58][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[57][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[56][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 2 of command[55][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[54][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[53][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[52][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[51][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[50][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[49][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[48][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[47][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[46][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[45][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[44][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[43][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 7 to 6 of command[42][7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 2 of command[42][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[41][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 7 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[40][7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[44][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[60][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[61][5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[45][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[54][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[57][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[57][6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[59][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[43][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[46][3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[39][6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[40][6:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 4 of command[47][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 5 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[51][6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 6 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[52][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[53][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 3 of command[58][6:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bit 1 of command[42][1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Pruning register bits 3 to 2 of command[48][3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Sharing sequential element command[51]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL279 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Pruning register bits 14 to 7 of r_Clock_Count[14:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

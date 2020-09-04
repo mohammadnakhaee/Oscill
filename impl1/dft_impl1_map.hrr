@@ -1,0 +1,31 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     150.00        100.0
+                                  LUT4	     199.00        100.0
+                                 IOBUF	         11        100.0
+                                PFUREG	         94        100.0
+                                RIPPLE	         31        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              cmd_send	          1        59.3
+                UART_TX_104s_0_1_2_3_4	          1        16.0
+---------------------------------------------------
+Report for cell cmd_send
+   Instance path: top/II_2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      89.00        59.3
+                                  LUT4	     131.00        65.8
+                                PFUREG	         25        26.6
+                                RIPPLE	         14        45.2
+---------------------------------------------------
+Report for cell UART_TX_104s_0_1_2_3_4
+   Instance path: top/UART_TX_Inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.00        16.0
+                                  LUT4	      39.00        19.6
+                                PFUREG	         22        23.4

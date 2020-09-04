@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/4/2020 22:15:55
+#Project Location: C:/Users/mohammad/Documents/FPGA/DFT; Project name: dft
+prj_project open "C:/Users/mohammad/Documents/FPGA/DFT/dft.ldf"
+prj_project close
+#Stop recording: 6/4/2020 22:16:10

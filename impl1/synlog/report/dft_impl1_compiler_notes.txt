@@ -1,0 +1,93 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\ecp5um5g.v":1746:7:1746:10|Synthesizing module OSCG in library work.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":14:7:14:13|Synthesizing module UART_TX in library work.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\cmd.v":4:7:4:14|Synthesizing module cmd_send in library work.
+@N: CG364 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Synthesizing module top in library work.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][0] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][2] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][3] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[62][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][1] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][3] is always 1.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[63][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[40][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[41][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[42][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[43][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[43][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[44][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[44][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[45][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[45][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[46][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[46][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[47][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[48][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[48][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[49][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[49][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[50][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[50][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[51][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[52][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[52][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[53][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[53][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[54][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[55][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[55][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[56][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[56][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[57][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[58][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[59][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[60][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[60][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[61][6] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[61][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit n_command[5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][0] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][5] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[38][7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][1] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][2] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][3] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][4] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":100:0:100:5|Register bit command[39][7] is always 0.
+@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":6:28:6:31|Input rstn is unused.
+@N: CL159 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":8:16:8:18|Input rxd is unused.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[7] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[8] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[9] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[10] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[11] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[12] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[13] is always 0.
+@N: CL189 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Register bit r_Clock_Count[14] is always 0.
+@N: CL201 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\uart_tx.v":38:2:38:7|Trying to extract state machine for register r_SM_Main.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\mohammad\Documents\FPGA\Bluetooth\top.sv":3:7:3:9|Selected library: work cell: top view verilog as top level
+
